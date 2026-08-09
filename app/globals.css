@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink-950: #06131c;
+  --color-ink-900: #0b1e2b;
+  --color-ink-800: #12303f;
+  --color-ink-700: #1b4356;
+  --color-water-600: #0e7490;
+  --color-water-500: #0d95b8;
+  --color-water-400: #38b6d3;
+  --color-water-100: #e0f4f9;
+  --color-water-50: #f2fafd;
+  --color-flame-600: #d9531e;
+  --color-flame-500: #f2691f;
+  --color-flame-400: #ff8a3d;
+  --color-flame-50: #fff3ea;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-ink-900);
+  -webkit-font-smoothing: antialiased;
+}
+
+.prose-nl h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: var(--color-ink-900);
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-nl h3 {
+  font-size: 1.15rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  color: var(--color-ink-800);
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose-nl p {
+  margin-bottom: 1rem;
+  line-height: 1.75;
+  color: #1f3945;
+}
+
+.prose-nl ul {
+  margin-bottom: 1.25rem;
+  padding-left: 1.1rem;
+  list-style: disc;
+}
+
+.prose-nl li {
+  margin-bottom: 0.4rem;
+  line-height: 1.7;
+  color: #1f3945;
+}
+
+.prose-nl a {
+  color: var(--color-water-600);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
