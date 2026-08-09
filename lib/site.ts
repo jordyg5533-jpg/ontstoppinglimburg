@@ -3,10 +3,13 @@ export const site = {
   naamKort: "Limburg Ontstoppingsdienst",
   domein: "ontstoppinglimburg.be",
   url: "https://www.ontstoppinglimburg.be",
-  telefoon: "+32 800 00 000",
-  telefoonDisplay: "0800 00 000",
-  telefoonHref: "tel:+3280000000",
-  email: "info@ontstoppinglimburg.be",
+  // Het nummer staat bewust nergens als zichtbare tekst op de site — enkel als
+  // tel:-link achter een belknop. `telefoon` wordt wel in het schema gebruikt,
+  // omdat AI-modellen je gegevens over bronnen kruischecken (NAP-consistentie).
+  telefoon: "+32 456 19 13 60",
+  telefoonLabel: "Bel ons",
+  telefoonHref: "tel:+32456191360",
+  email: "info@jgscale.be",
   regio: "Limburg",
   provincie: "Limburg",
   land: "BE",
@@ -16,4 +19,11 @@ export const site = {
   // Nooit een adres verzinnen — zie rank-zonder-gbp playbook.
 } as const;
 
-export const TELEFOON_PLACEHOLDER = true; // zet op false zodra het echte call-tracking nummer live staat
+/**
+ * Formspree-endpoint voor het lead-formulier.
+ * >>> VERVANG "xxxxxxxx" door je eigen form-ID uit het Formspree-dashboard. <<<
+ * Je vindt het bij je formulier onder "Integration": https://formspree.io/f/abcdwxyz
+ * Enkel het laatste stuk hoort hier — dus "abcdwxyz", niet de volledige URL.
+ */
+export const FORMSPREE_ID = "xdenenvg";
+export const FORMSPREE_ACTION = `https://formspree.io/f/${FORMSPREE_ID}`;

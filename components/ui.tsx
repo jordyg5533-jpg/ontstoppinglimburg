@@ -9,7 +9,7 @@ export function CallButton({ klein = false }: { klein?: boolean }) {
         klein ? "px-4 py-2 text-sm" : "px-6 py-3.5 text-base"
       }`}
     >
-      <span aria-hidden>&#9742;</span> Bel {site.telefoonDisplay}
+      <span aria-hidden>&#9742;</span> {site.telefoonLabel}
     </a>
   );
 }

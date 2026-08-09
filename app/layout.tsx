@@ -89,7 +89,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               href={site.telefoonHref}
               className="hidden rounded-lg bg-flame-500 px-4 py-2 text-sm font-semibold text-white hover:bg-flame-600 sm:inline-block"
             >
-              Bel {site.telefoonDisplay}
+              <span aria-hidden>&#9742;</span> {site.telefoonLabel}
             </a>
           </div>
         </header>
@@ -106,7 +106,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </p>
               <p className="mt-3 text-sm">
                 <a href={site.telefoonHref} className="font-semibold text-flame-400 hover:underline">
-                  {site.telefoonDisplay}
+                  <span aria-hidden>&#9742;</span> {site.telefoonLabel}
                 </a>
                 <br />
                 <a href={`mailto:${site.email}`} className="text-white/70 hover:underline">

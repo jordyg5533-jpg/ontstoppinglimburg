@@ -1,23 +1,24 @@
 import { menuServices } from "@/lib/services";
+import { FORMSPREE_ACTION, site } from "@/lib/site";
 
 /**
  * Lead-formulier. Zo licht mogelijk: enkel naam en telefoon verplicht.
- * Post naar FormSubmit zodat er geen server nodig is bij een statische export.
- * Vervang het endpoint door het echte adres zodra dat actief is.
+ * Post naar Formspree, zodat er geen server nodig is bij een statische export.
+ * Het endpoint staat in lib/site.ts (FORMSPREE_ID) — daar één keer je form-ID zetten.
  */
 export function LeadForm({ gemeente, compact = false }: { gemeente?: string; compact?: boolean }) {
   return (
     <form
-      action="https://formsubmit.co/info@ontstoppinglimburg.be"
+      action={FORMSPREE_ACTION}
       method="POST"
       className={`rounded-2xl border border-water-100 bg-white p-5 shadow-sm ${compact ? "" : "sm:p-7"}`}
     >
+      {/* Formspree-velden: _subject zet het onderwerp, _next stuurt door na verzending,
+          _gotcha is de honeypot die Formspree zelf uitleest. */}
       <input type="hidden" name="_subject" value={`Nieuwe aanvraag${gemeente ? ` — ${gemeente}` : ""}`} />
-      <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_next" value="https://www.ontstoppinglimburg.be/bedankt" />
+      <input type="hidden" name="_next" value={`${site.url}/bedankt`} />
       <input type="hidden" name="herkomst" value={gemeente ?? "algemeen"} />
-      {/* honeypot */}
-      <input type="text" name="_honey" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden />
+      <input type="text" name="_gotcha" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden />
 
       <p className="mb-1 text-lg font-bold text-ink-900">
         {gemeente ? `Prijsindicatie voor ${gemeente}` : "Vraag een gratis prijsindicatie"}

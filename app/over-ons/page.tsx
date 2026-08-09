@@ -59,12 +59,8 @@ export default function OverOns() {
 
         <H2>Contact</H2>
         <p>
-          Telefoon:{" "}
-          <a href={site.telefoonHref} className="font-semibold">
-            {site.telefoonDisplay}
-          </a>
-          <br />
-          E-mail: <a href={`mailto:${site.email}`}>{site.email}</a>
+          Bellen gaat het snelst — gebruik de knop hieronder. E-mail:{" "}
+          <a href={`mailto:${site.email}`}>{site.email}</a>
         </p>
         <div className="mt-6">
           <CallButton />
