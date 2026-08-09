@@ -5,6 +5,7 @@ import { site } from "@/lib/site";
 import { menuServices } from "@/lib/services";
 import { hoofdSteden } from "@/lib/cities";
 import { Jsonld } from "@/components/ui";
+import { Logo, LogoMark } from "@/components/Logo";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -15,11 +16,17 @@ export const metadata: Metadata = {
   description:
     "Verstopte riolering of afvoer in Limburg? Ontstopping, camera-inspectie, septische put en rioolherstel in alle 38 Limburgse gemeenten. Richtprijzen vooraf, dag en nacht bereikbaar.",
   alternates: { canonical: "/" },
+  manifest: "/site.webmanifest",
   openGraph: {
     type: "website",
     locale: "nl_BE",
     siteName: site.naam,
     url: site.url,
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: site.naam }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/og.png"],
   },
   robots: { index: true, follow: true },
 };
@@ -64,12 +71,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <header className="sticky top-0 z-40 border-b border-water-100 bg-white/95 backdrop-blur">
           <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-5 py-3 sm:px-6">
-            <Link href="/" className="flex flex-col leading-tight">
-              <span className="text-[15px] font-extrabold tracking-tight text-ink-900 sm:text-base">
-                Limburg Ontstoppingsdienst
-              </span>
-              <span className="text-[11px] font-semibold uppercase tracking-widest text-water-600">24/7 · heel Limburg</span>
-            </Link>
+            <Logo />
             <nav className="hidden items-center gap-5 text-sm font-medium text-ink-800 lg:flex">
               <Link href="/diensten" className="hover:text-water-600">
                 Diensten
@@ -98,7 +100,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="border-t border-water-100 bg-ink-950 text-white">
           <div className="mx-auto grid w-full max-w-6xl gap-8 px-5 py-12 sm:px-6 md:grid-cols-4">
             <div>
-              <p className="text-base font-extrabold">{site.naam}</p>
+              <div className="mb-3 flex items-center gap-2.5">
+                <LogoMark size={34} />
+                <p className="text-base font-extrabold leading-tight">{site.naam}</p>
+              </div>
               <p className="mt-2 text-sm leading-relaxed text-white/70">
                 Ontstopping, camera-inspectie en rioolherstel in heel de provincie Limburg. Wij werken vanuit de regio en
                 hebben geen vaste baliewerking — u bereikt ons het snelst per telefoon.

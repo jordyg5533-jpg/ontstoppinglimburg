@@ -1,0 +1,17 @@
+{
+  "name": "Limburg Ontstoppingsdienst 24/7",
+  "short_name": "Ontstoppingsdienst",
+  "description": "Riool en afvoer ontstoppen in heel Limburg.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#06131c",
+  "theme_color": "#06131c",
+  "icons": [
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
