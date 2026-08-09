@@ -21,7 +21,7 @@ export type City = {
   werken?: string;
   probleem: string;
   uniek: string;
-  /** Waterhardheid in °fH — indicatief, commerciële bron. Alleen ingevuld waar gevonden. */
+  /** Waterhardheid in °fH, indicatief, commerciële bron. Alleen ingevuld waar gevonden. */
   waterhardheid?: number;
   /** Aquafin StatusTool, toestand 31/03/2026. */
   statusTool?: { dekking: number; risicovol: number; noot?: string };

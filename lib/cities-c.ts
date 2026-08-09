@@ -1,6 +1,6 @@
 import type { City } from "./city-types";
 
-/** Groep C — Haspengouw, de Demervallei en het Hageland. */
+/** Groep C: Haspengouw, de Demervallei en het Hageland. */
 export const citiesC: City[] = [
   {
     slug: "diepenbeek",
@@ -51,13 +51,13 @@ export const citiesC: City[] = [
     werken:
       "In de Tuinwijk werd langs de Beverzakbroekweg, Schutenseweg, Donkeindeweg en Turfstraat een gescheiden stelsel met pompstation aangelegd, mede tegen bestaande wateroverlast. Ook aan de Katschotseweg en Spierhoofseweg kwam een gescheiden stelsel. Daarvoor loosden nog ongeveer 150 en 200 inwoners ongezuiverd op de Roosterbeek en de Slangebeek.",
     probleem:
-      "De Wijers is een vlak, vijver- en beekrijk gebied met hoge waterstanden. Op laaggelegen percelen was er al voor de werken structurele wateroverlast — dat werd bij het project aan de Beverzakbroekweg uitdrukkelijk vermeld.",
+      "De Wijers is een vlak, vijver- en beekrijk gebied met hoge waterstanden. Op laaggelegen percelen was er al voor de werken structurele wateroverlast: dat werd bij het project aan de Beverzakbroekweg uitdrukkelijk vermeld.",
     uniek:
       "Zonhoven ligt volledig in De Wijers: 1.175 vijvers en drie beken richting de Demer. Afvoerproblemen zijn hier eerder een kwestie van hoge grond- en beekpeilen dan van leem of erosie zoals in Zuid-Limburg.",
     faq: [
       {
         v: "Waarom loopt mijn afvoer in Zonhoven bij nat weer altijd trager?",
-        a: "In De Wijers staat het grondwater hoog en zijn de peilen in de vijvers en beken sterk wisselend. Ligt uw leiding rond of onder dat peil, dan krijgt ze bij natte periodes minder verval en loopt alles trager, zonder dat er iets vaststeekt. Zit er bovendien een defecte voeg in, dan sijpelt er grondwater binnen. Een camera-inspectie in een natte periode toont dat meteen — in een droge periode ziet u het niet.",
+        a: "In De Wijers staat het grondwater hoog en zijn de peilen in de vijvers en beken sterk wisselend. Ligt uw leiding rond of onder dat peil, dan krijgt ze bij natte periodes minder verval en loopt alles trager, zonder dat er iets vaststeekt. Zit er bovendien een defecte voeg in, dan sijpelt er grondwater binnen. Een camera-inspectie in een natte periode toont dat meteen: in een droge periode ziet u het niet.",
       },
     ],
     volgorde: ["problemen", "gebied", "diensten", "netwerk", "prijzen", "werkwijze", "wetgeving"],
@@ -75,7 +75,7 @@ export const citiesC: City[] = [
     waterlopen: ["de Herk", "de Kleine Herk", "de Mombeek", "de Simsebeek", "de Kozenbeek"],
     rioolbeheerder: "Fluvius",
     bodem:
-      "Ondoorlatende kleibodem met veel bronnen en een vlak reliëf dat zelden boven 60 meter uitkomt — regenwater zakt hier nauwelijks weg.",
+      "Ondoorlatende kleibodem met veel bronnen en een vlak reliëf dat zelden boven 60 meter uitkomt: regenwater zakt hier nauwelijks weg.",
     bouwprofiel:
       "Concentrische dorpsstructuur rond de Herk, met secundaire kernen langs de verbindingswegen en veel lintbebouwing. Alken telt nog talrijke vakwerkhoeven, van kleine langgerekte bedrijven tot grote gesloten hoeves, al is hun aantal sinds 1981 ongeveer gehalveerd.",
     landmarks: ["de brouwerij van Alken", "de Sint-Aldegondiskerk", "drie werkende watermolens op de Herk", "recreatiepark De Alk", "kasteel Dompas"],
@@ -84,7 +84,7 @@ export const citiesC: City[] = [
     probleem:
       "In juli 2021 traden de Kleine Herk en de Herk lokaal buiten hun oevers. De ondoorlatende kleibodem met veel bronnen betekent dat regenwater oppervlakkig afstroomt in plaats van te infiltreren. In de Mombeek is fosfor een probleem, mede door overstorten.",
     uniek:
-      "Alken ligt met drie watermolens pal in de Herkvallei op ondoorlatende klei. Het rioolstelsel moet hier tegelijk piekbuien én een snel reagerende beek verwerken — en de dijkwerken aan de Herk lopen door tot na 2026.",
+      "Alken ligt met drie watermolens pal in de Herkvallei op ondoorlatende klei. Het rioolstelsel moet hier tegelijk piekbuien én een snel reagerende beek verwerken, en de dijkwerken aan de Herk lopen door tot na 2026.",
     faq: [
       {
         v: "Kan ik in Alken regenwater op eigen terrein laten infiltreren?",
@@ -120,7 +120,7 @@ export const citiesC: City[] = [
     faq: [
       {
         v: "Bij wie moet ik in Wellen zijn voor een rioolaansluiting of keuring?",
-        a: "Bij de gemeente Wellen zelf, niet bij Fluvius. Wellen heeft het rioolbeheer in eigen handen gehouden. Voor de keuring van uw privéwaterafvoer gebruikt u wel gewoon een keurder erkend door Vlario of AquaFlanders — dat staat los van wie het openbare net beheert.",
+        a: "Bij de gemeente Wellen zelf, niet bij Fluvius. Wellen heeft het rioolbeheer in eigen handen gehouden. Voor de keuring van uw privéwaterafvoer gebruikt u wel gewoon een keurder erkend door Vlario of AquaFlanders: dat staat los van wie het openbare net beheert.",
       },
     ],
     volgorde: ["netwerk", "problemen", "diensten", "prijzen", "gebied", "werkwijze", "wetgeving"],
@@ -152,7 +152,7 @@ export const citiesC: City[] = [
     faq: [
       {
         v: "Mijn straatkolk en huisaansluiting slibben dicht met modder. Wat kan ik doen?",
-        a: "Dat is in Borgloon een bekend patroon: leem spoelt bij een felle bui van de akkers en via de holle wegen naar beneden en zet zich af in kolken en leidingen. Modder laat zich niet met een spiraal verwijderen — die boort er een gat in dat weer dichtloopt. Hogedrukreiniging haalt de laag wel weg. Loopt het jaarlijks terug, dan is een zandvang of bezinkput voor uw aansluiting de duurzame oplossing.",
+        a: "Dat is in Borgloon een bekend patroon: leem spoelt bij een felle bui van de akkers en via de holle wegen naar beneden en zet zich af in kolken en leidingen. Modder laat zich niet met een spiraal verwijderen: die boort er een gat in dat weer dichtloopt. Hogedrukreiniging haalt de laag wel weg. Loopt het jaarlijks terug, dan is een zandvang of bezinkput voor uw aansluiting de duurzame oplossing.",
       },
     ],
     volgorde: ["problemen", "gebied", "diensten", "prijzen", "netwerk", "werkwijze", "wetgeving"],
@@ -238,7 +238,7 @@ export const citiesC: City[] = [
     probleem:
       "Een open, geruilverkaveld leemlandschap zonder hagen of holle wegen als buffer zorgt voor snelle afstroming en modderstromen. De Cicindria kreeg jarenlang ongezuiverd afvalwater te verwerken.",
     uniek:
-      "Gingelom is het meest open leemlandschap van Haspengouw — de eerste ruilverkaveling van Vlaanderen in 1962 haalde de bufferende hagen en graften grotendeels weg. Pas sinds 2020 draait er een zuiveringsinstallatie aan de Kaneelstraat voor zo'n 2.700 inwoners.",
+      "Gingelom is het meest open leemlandschap van Haspengouw: de eerste ruilverkaveling van Vlaanderen in 1962 haalde de bufferende hagen en graften grotendeels weg. Pas sinds 2020 draait er een zuiveringsinstallatie aan de Kaneelstraat voor zo'n 2.700 inwoners.",
     faq: [
       {
         v: "Mijn woning is pas recent op de riolering aangesloten. Waar moet ik op letten?",
@@ -268,11 +268,11 @@ export const citiesC: City[] = [
     probleem:
       "Nieuwerkerken ligt in het speerpuntgebied Mombeek-Herk, waar afvalwaterimpact en fosfor de knelpunten zijn. Het terrein helt af, wat afstroming versnelt.",
     uniek:
-      "Nieuwerkerken is klein maar heeft in korte tijd erg veel rioleringsprojecten gekregen. Veel woningen zijn hier de voorbije jaren overgeschakeld van septische put of gracht naar gescheiden riolering — met alle overgangsproblemen die daarbij horen.",
+      "Nieuwerkerken is klein maar heeft in korte tijd erg veel rioleringsprojecten gekregen. Veel woningen zijn hier de voorbije jaren overgeschakeld van septische put of gracht naar gescheiden riolering: met alle overgangsproblemen die daarbij horen.",
     faq: [
       {
         v: "Ik ben overgeschakeld van gracht naar riolering. Waarom heb ik nu meer geurhinder?",
-        a: "Dat komt vaker voor na een aansluiting. Bij een gracht ontsnapten geuren in de open lucht; in een gesloten stelsel moeten ze via uw dakontluchting weg. Is die verstopt, te kort of ontbreekt ze, dan zoekt de lucht een andere weg — meestal via een uitgedroogde sifon of een slecht afgedichte aansluiting. Controleer eerst of alle sifons water bevatten, ook die van zelden gebruikte toestellen. Blijft het probleem, dan brengt een rookproef binnen een uur het lek in beeld.",
+        a: "Dat komt vaker voor na een aansluiting. Bij een gracht ontsnapten geuren in de open lucht; in een gesloten stelsel moeten ze via uw dakontluchting weg. Is die verstopt, te kort of ontbreekt ze, dan zoekt de lucht een andere weg: meestal via een uitgedroogde sifon of een slecht afgedichte aansluiting. Controleer eerst of alle sifons water bevatten, ook die van zelden gebruikte toestellen. Blijft het probleem, dan brengt een rookproef binnen een uur het lek in beeld.",
       },
     ],
     volgorde: ["netwerk", "diensten", "problemen", "wetgeving", "prijzen", "werkwijze", "gebied"],
@@ -325,7 +325,7 @@ export const citiesC: City[] = [
       "Halen en Loksbergen zijn typische Hagelanddorpen, historisch deel van het hertogdom Brabant, terwijl Zelem bij het prinsbisdom Luik hoorde en geografisch Kempens is. Het centrum ligt precies op de samenvloeiing van vier waterlopen.",
     landmarks: ["de Sint-Pietersbandenkerk", "de gedenkplaatsen van de Slag der Zilveren Helmen", "het Sint-Jansbergklooster in Zelem", "streekmuseum De Reinvoart"],
     werken:
-      "De Velpe in het centrum wordt heraangelegd met dijken verder van de rivier — meer ruimte voor water. De ontwerpen dateren van begin 2025 en de start van de werken wordt eind 2026 verwacht. Eerder plaatste de stad al bufferbekkens en pompen.",
+      "De Velpe in het centrum wordt heraangelegd met dijken verder van de rivier: meer ruimte voor water. De ontwerpen dateren van begin 2025 en de start van de werken wordt eind 2026 verwacht. Eerder plaatste de stad al bufferbekkens en pompen.",
     probleem:
       "In juli 2021 stond het centrum van Halen onder water door de Gete én de Velpe; op 16 juli werd de Getedijk bewust doorgestoken en liepen zo'n dertig straten schade op. In 2023 werden extra natuurlijke overstromingsgebieden stroomopwaarts aangekondigd, samen met maatwerkadvies over schotten en terugslagkleppen.",
     uniek:
@@ -359,11 +359,11 @@ export const citiesC: City[] = [
     probleem:
       "Lummen wordt genoemd bij de wateroverlastmaatregelen rond Gete en Velpe, samen met Halen en Herk-de-Stad, en ligt aan het overstromingsgevoelige Schulensbroek.",
     uniek:
-      "In Lummen wordt het gescheiden net in grote straatpakketten tegelijk aangelegd. Veel woningen zijn daardoor recent afgekoppeld en hebben nu twee afzonderlijke huisaansluitingen — verwar ze niet bij werken aan uw eigen leidingen.",
+      "In Lummen wordt het gescheiden net in grote straatpakketten tegelijk aangelegd. Veel woningen zijn daardoor recent afgekoppeld en hebben nu twee afzonderlijke huisaansluitingen: verwar ze niet bij werken aan uw eigen leidingen.",
     faq: [
       {
         v: "Ik heb sinds de werken twee aansluitingen. Hoe weet ik welke welke is?",
-        a: "Meestal ligt de vuilwaterleiding dieper dan de regenwaterleiding en zijn de deksels verschillend gemerkt. Zekerheid krijgt u met een kleurstoftest: kleurstof in uw wc en kijken waar het uitkomt. Dat duurt enkele minuten en voorkomt dat u later per ongeluk een dakgoot op de vuilwaterleiding aansluit — wat bij een keuring als niet-conform wordt beoordeeld.",
+        a: "Meestal ligt de vuilwaterleiding dieper dan de regenwaterleiding en zijn de deksels verschillend gemerkt. Zekerheid krijgt u met een kleurstoftest: kleurstof in uw wc en kijken waar het uitkomt. Dat duurt enkele minuten en voorkomt dat u later per ongeluk een dakgoot op de vuilwaterleiding aansluit: wat bij een keuring als niet-conform wordt beoordeeld.",
       },
     ],
     volgorde: ["netwerk", "diensten", "problemen", "prijzen", "wetgeving", "werkwijze", "gebied"],

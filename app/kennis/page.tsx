@@ -34,11 +34,11 @@ export default function KennisOverzicht() {
             { naam: "Kennisbank", href: "/kennis" },
           ]}
         />
-        <h1 className="mb-4 text-3xl font-extrabold tracking-tight text-ink-900 sm:text-4xl">
+        <h1 className="mb-4 text-[1.6rem] font-bold leading-[1.18] tracking-tight text-ink-900 sm:text-[1.95rem]">
           Kennisbank: riolering en afvoer in Limburg
         </h1>
         <p className="mb-10 max-w-3xl leading-relaxed text-ink-800">
-          Veel afvoerproblemen kosten onnodig geld doordat mensen de verkeerde vraag stellen — of de verkeerde partij
+          Veel afvoerproblemen kosten onnodig geld doordat mensen de verkeerde vraag stellen, of de verkeerde partij
           bellen. Deze gidsen geven concrete cijfers, met de bron erbij, zodat u zelf kunt beslissen.
         </p>
         <div className="grid gap-4 sm:grid-cols-2">

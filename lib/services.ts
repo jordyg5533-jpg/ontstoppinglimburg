@@ -21,7 +21,7 @@ export const services: Service[] = [
     beschrijving:
       "Verstopte hoofdriolering in Limburg? Wij ontstoppen met spiraal, frees of hogedruk, met camera-controle achteraf. Richtprijzen, btw-regels en wie waarvoor betaalt.",
     intro:
-      "Een verstopte hoofdriolering merkt u meestal aan meerdere toestellen tegelijk: de wc loopt traag weg, de douche borrelt en de laagste afvoer in huis loopt als eerste over. Dat is een ander probleem dan één verstopte gootsteen — en het vraagt een andere aanpak.",
+      "Een verstopte hoofdriolering merkt u meestal aan meerdere toestellen tegelijk: de wc loopt traag weg, de douche borrelt en de laagste afvoer in huis loopt als eerste over. Dat is een ander probleem dan één verstopte gootsteen, en het vraagt een andere aanpak.",
     wanneer: [
       "meerdere toestellen lopen tegelijk traag weg",
       "de laagste afvoer in huis (kelder, garage, buitenkraan) loopt over",
@@ -52,7 +52,7 @@ export const services: Service[] = [
       },
       {
         v: "Wie betaalt: ik of de rioolbeheerder?",
-        a: "Het Fluvius-reglement is duidelijk: het overnamepunt tussen huisaansluiting en privéwaterafvoer ligt aan de rooilijn, maar het onderhoud van de privéwaterafvoer én van de huisaansluiting tot en met het huisaansluitputje valt steeds ten laste van de klant. Ligt dat putje op de stoep, dan blijft het toch uw verantwoordelijkheid — ook al is het eigendom van de netbeheerder. Pas voorbij het huisaansluitputje is de rioolbeheerder aan zet.",
+        a: "Het Fluvius-reglement is duidelijk: het overnamepunt tussen huisaansluiting en privéwaterafvoer ligt aan de rooilijn, maar het onderhoud van de privéwaterafvoer én van de huisaansluiting tot en met het huisaansluitputje valt steeds ten laste van de klant. Ligt dat putje op de stoep, dan blijft het toch uw verantwoordelijkheid, ook al is het eigendom van de netbeheerder. Pas voorbij het huisaansluitputje is de rioolbeheerder aan zet.",
       },
     ],
     inMenu: true,
@@ -65,7 +65,7 @@ export const services: Service[] = [
     beschrijving:
       "Wc verstopt in Limburg? Ontdek eerst wat u zelf kunt doen, wanneer u beter belt en wat een professionele wc-ontstopping kost in 2026.",
     intro:
-      "Een verstopte wc is het meest gemelde afvoerprobleem in Vlaanderen: alleen al op de zoekterm wc ontstoppen zoeken maandelijks duizenden mensen. In de helft van de gevallen zit de prop in de wc zelf en raakt u er zonder gereedschap uit. In de andere helft zit ze verderop — en dan maakt doorspoelen het erger.",
+      "Een verstopte wc is het meest gemelde afvoerprobleem in Vlaanderen: alleen al op de zoekterm wc ontstoppen zoeken maandelijks duizenden mensen. In de helft van de gevallen zit de prop in de wc zelf en raakt u er zonder gereedschap uit. In de andere helft zit ze verderop, en dan maakt doorspoelen het erger.",
     wanneer: [
       "het water stijgt bij doorspoelen en zakt daarna traag",
       "u hoort borrelen in de douche als u doorspoelt",
@@ -75,7 +75,7 @@ export const services: Service[] = [
     aanpak: [
       { stap: "Eerst: niet blijven doorspoelen", uitleg: "Elke extra spoeling voegt water toe aan een buis die het niet kwijt raakt. Stop met spoelen zodra u merkt dat het water blijft staan." },
       { stap: "Ontstopper of zuiger", uitleg: "Een klassieke rubberen ontstopper werkt bij een prop in de sifon van de wc zelf. Zorg dat er genoeg water in de pot staat zodat de zuiger echt afsluit." },
-      { stap: "Spiraal via de wc", uitleg: "Zit de prop verderop, dan gaan wij met een spiraal via de wc of via een inspectiepunt. Nooit met scherp gereedschap in de porseleinen pot — dat kost u een nieuwe wc." },
+      { stap: "Spiraal via de wc", uitleg: "Zit de prop verderop, dan gaan wij met een spiraal via de wc of via een inspectiepunt. Nooit met scherp gereedschap in de porseleinen pot: dat kost u een nieuwe wc." },
       { stap: "Oorzaak bepalen", uitleg: "Is het al de derde keer dit jaar, dan is de prop het symptoom en niet het probleem. Dan kijken we met camera naar verval, wortels en breuken." },
     ],
     prijs: [
@@ -87,11 +87,11 @@ export const services: Service[] = [
     faq: [
       {
         v: "Mag ik chemische ontstopper gebruiken in de wc?",
-        a: "Liever niet. Bijtende producten lossen haar en zeep op, maar bijna nooit vochtige doekjes, kalk of wortels — precies de oorzaken die wij in Limburg het vaakst zien. Werkt het product niet, dan staat er wel een laag bijtend water in uw buis wanneer een technicus eraan begint. Zeg het altijd als u iets gebruikt hebt.",
+        a: "Liever niet. Bijtende producten lossen haar en zeep op, maar bijna nooit vochtige doekjes, kalk of wortels: precies de oorzaken die wij in Limburg het vaakst zien. Werkt het product niet, dan staat er wel een laag bijtend water in uw buis wanneer een technicus eraan begint. Zeg het altijd als u iets gebruikt hebt.",
       },
       {
         v: "Waarom veroorzaken vochtige doekjes zoveel verstoppingen?",
-        a: "Ze breken niet af zoals wc-papier. In de leiding haken ze aan een oneffenheid — een voeg, een ruwe rand, een bocht — en vormen daar een net waarin vet en haar blijven hangen. Bij drukriolering, zoals in verspreide buitengebieden in Pelt, blokkeren ze bovendien de pomp. Ook doekjes met de vermelding doorspoelbaar horen in de vuilnisbak.",
+        a: "Ze breken niet af zoals wc-papier. In de leiding haken ze aan een oneffenheid: een voeg, een ruwe rand, een bocht, en vormen daar een net waarin vet en haar blijven hangen. Bij drukriolering, zoals in verspreide buitengebieden in Pelt, blokkeren ze bovendien de pomp. Ook doekjes met de vermelding doorspoelbaar horen in de vuilnisbak.",
       },
     ],
     inMenu: true,
@@ -116,7 +116,7 @@ export const services: Service[] = [
       { stap: "Camera door de leiding", uitleg: "Wij voeren een camera in via een inspectieput, een dakontluchting of het huisaansluitputje en filmen het volledige traject." },
       { stap: "Zender voor lokalisatie", uitleg: "Met een zender in de camerakop bepalen wij op de centimeter waar en hoe diep een probleem zit. Dat voorkomt dat er blind gegraven wordt." },
       { stap: "Hellingmeting", uitleg: "Te weinig verval of een tegenhelling zorgt voor blijvende problemen die geen enkele ontstopping oplost. De meting toont dat objectief aan." },
-      { stap: "Rapport met beelden", uitleg: "U krijgt de beelden en een korte beschrijving van wat er te zien is — bruikbaar bij een verzekering, een aankoop of een discussie met de rioolbeheerder." },
+      { stap: "Rapport met beelden", uitleg: "U krijgt de beelden en een korte beschrijving van wat er te zien is: bruikbaar bij een verzekering, een aankoop of een discussie met de rioolbeheerder." },
     ],
     prijs: [
       { wat: "Camera-inspectie", range: "€80 - €180", noot: "vaak gratis of aan verminderd tarief bij werken boven €200" },
@@ -144,7 +144,7 @@ export const services: Service[] = [
     beschrijving:
       "Septische put laten ledigen in Limburg: hoe vaak het moet, wat het kost in 2026, welk btw-tarief geldt en wanneer een put wettelijk verplicht is.",
     intro:
-      "Septische put ledigen is een van de meest gezochte afvoerdiensten in België — logisch, want in het landelijke buitengebied van Haspengouw, de Voerstreek en Noord-Limburg zijn duizenden woningen er nog van afhankelijk. Toch weten weinig mensen hoe vaak het echt moet.",
+      "Septische put ledigen is een van de meest gezochte afvoerdiensten in België: logisch, want in het landelijke buitengebied van Haspengouw, de Voerstreek en Noord-Limburg zijn duizenden woningen er nog van afhankelijk. Toch weten weinig mensen hoe vaak het echt moet.",
     wanneer: [
       "uw wc of douche loopt traag weg zonder verstopping in huis",
       "u ruikt een onaangename geur rond de put of binnen",
@@ -154,7 +154,7 @@ export const services: Service[] = [
     aanpak: [
       { stap: "Deksel vrijmaken en controleren", uitleg: "Wij openen de put en beoordelen de drijflaag en de sliblaag. Dat bepaalt of een gewone lediging volstaat." },
       { stap: "Leegzuigen", uitleg: "Het slib gaat naar een erkende verwerker. U krijgt een bewijs van afvoer." },
-      { stap: "Naspoelen en nazicht", uitleg: "Wij spoelen de put na en controleren de in- en uitlaat op verstopping — dat is vaak de echte oorzaak van een trage afvoer." },
+      { stap: "Naspoelen en nazicht", uitleg: "Wij spoelen de put na en controleren de in- en uitlaat op verstopping: dat is vaak de echte oorzaak van een trage afvoer." },
       { stap: "Advies over frequentie", uitleg: "Op basis van het volume, het aantal bewoners en de toestand geven we u een realistisch interval mee." },
     ],
     prijs: [
@@ -167,15 +167,15 @@ export const services: Service[] = [
     faq: [
       {
         v: "Hoe vaak moet een septische put geledigd worden?",
-        a: "Er is geen wettelijk vastgelegde frequentie. De praktijkaanbeveling is gemiddeld om de drie à vijf jaar, afhankelijk van het volume van de put en het aantal bewoners. Duidelijke signalen dat het tijd is: een verstopte afvoer van toilet of douche, geurhinder in huis en een borrelend geluid in de leiding. Wacht daar liever niet op — een volle put duwt terug richting uw woning.",
+        a: "Er is geen wettelijk vastgelegde frequentie. De praktijkaanbeveling is gemiddeld om de drie à vijf jaar, afhankelijk van het volume van de put en het aantal bewoners. Duidelijke signalen dat het tijd is: een verstopte afvoer van toilet of douche, geurhinder in huis en een borrelend geluid in de leiding. Wacht daar liever niet op: een volle put duwt terug richting uw woning.",
       },
       {
         v: "Is een septische put in Vlaanderen verplicht?",
-        a: "Dat hangt af van twee dingen: de inkleuring op het zoneringsplan van uw gemeente en de lokale regels. Ligt uw adres in collectief te optimaliseren buitengebied zonder riolering in de straat, dan moet u in afwachting van aansluiting al uw afvalwater via een septische put lozen — zowel zwart als grijs water. Bent u wél aangesloten, dan beslist de rioolbeheerder of een put verplicht blijft; dan gaat er meestal enkel zwart water door.",
+        a: "Dat hangt af van twee dingen: de inkleuring op het zoneringsplan van uw gemeente en de lokale regels. Ligt uw adres in collectief te optimaliseren buitengebied zonder riolering in de straat, dan moet u in afwachting van aansluiting al uw afvalwater via een septische put lozen: zowel zwart als grijs water. Bent u wél aangesloten, dan beslist de rioolbeheerder of een put verplicht blijft; dan gaat er meestal enkel zwart water door.",
       },
       {
         v: "Welke minimumvolumes gelden er?",
-        a: "De VMM houdt twee minimumvolumes aan: 2.000 liter wanneer er enkel zwart water door de put gaat, en 3.000 liter wanneer ook grijs water — bad, douche, keuken, wasmachine — erop is aangesloten.",
+        a: "De VMM houdt twee minimumvolumes aan: 2.000 liter wanneer er enkel zwart water door de put gaat, en 3.000 liter wanneer ook grijs water, bad, douche, keuken, wasmachine, erop is aangesloten.",
       },
       {
         v: "Waarom rekenen sommige firma's 21% btw op het ledigen?",
@@ -192,7 +192,7 @@ export const services: Service[] = [
     beschrijving:
       "Regenwaterput laten reinigen in Limburg: richtprijzen per inhoud, hoe vaak het nodig is met of zonder voorfilter, en waar u op moet letten bij hergebruik.",
     intro:
-      "Sinds de hemelwaterverordening van 2023 is een hemelwaterput bij nieuwbouw en grondige verbouwing verplicht, met minimumvolumes die oplopen tot 10.000 liter bij een dak boven 120 vierkante meter. Al dat opgevangen water moet ook echt gebruikt worden — en daarvoor moet de put schoon zijn.",
+      "Sinds de hemelwaterverordening van 2023 is een hemelwaterput bij nieuwbouw en grondige verbouwing verplicht, met minimumvolumes die oplopen tot 10.000 liter bij een dak boven 120 vierkante meter. Al dat opgevangen water moet ook echt gebruikt worden, en daarvoor moet de put schoon zijn.",
     wanneer: [
       "het pompwater ruikt of ziet er troebel uit",
       "uw pomp slaat vaker aan of loopt droog",
@@ -215,7 +215,7 @@ export const services: Service[] = [
     faq: [
       {
         v: "Hoe vaak moet een regenwaterput gereinigd worden?",
-        a: "Zonder voorfilter jaarlijks, met voorfilter om de drie à vijf jaar, en in elk geval minimaal om de vijf jaar. Een voorfilter houdt bladeren en grof vuil tegen voor ze in de put belanden — dat is de goedkoopste ingreep om uw reinigingsinterval te verlengen.",
+        a: "Zonder voorfilter jaarlijks, met voorfilter om de drie à vijf jaar, en in elk geval minimaal om de vijf jaar. Een voorfilter houdt bladeren en grof vuil tegen voor ze in de put belanden: dat is de goedkoopste ingreep om uw reinigingsinterval te verlengen.",
       },
       {
         v: "Welk volume hemelwaterput is verplicht bij nieuwbouw?",
@@ -232,7 +232,7 @@ export const services: Service[] = [
     beschrijving:
       "Hogedrukreiniging van riolering in Limburg: wanneer hogedruk beter werkt dan een spiraal, wat het kost en bij welke bodem- en watersituaties het aangewezen is.",
     intro:
-      "Een spiraal boort een gat door een prop; hogedruk spoelt de volledige binnenwand schoon. Dat verschil is groot bij kalkaanslag, vet, zand en modder — en precies dat zijn de drie oorzaken die in Limburg per streek verschillen.",
+      "Een spiraal boort een gat door een prop; hogedruk spoelt de volledige binnenwand schoon. Dat verschil is groot bij kalkaanslag, vet, zand en modder, en precies dat zijn de drie oorzaken die in Limburg per streek verschillen.",
     wanneer: [
       "uw afvoer wordt geleidelijk trager in plaats van plots dicht te gaan",
       "u woont in Haspengouw met hard water en kalkaanslag",
@@ -251,12 +251,12 @@ export const services: Service[] = [
     ],
     faq: [
       {
-        v: "Spiraal of hogedruk — wat heb ik nodig?",
+        v: "Spiraal of hogedruk: wat heb ik nodig?",
         a: "Een spiraal is de juiste keuze bij een duidelijke, lokale prop: een handdoek, een speelgoedje, een pak doekjes. Hogedruk is beter wanneer de buis over een lange afstand vernauwd is door kalk, vet, zand of modder. Vuistregel: ging uw afvoer plots dicht, denk spiraal. Werd hij over maanden trager, denk hogedruk.",
       },
       {
         v: "Waarom speelt kalk in Sint-Truiden meer dan in Lommel?",
-        a: "Door de waterhardheid. In Sint-Truiden ligt die rond 45 °fH en in Tongeren rond 42 °fH — heel hard water. In Lommel is het ongeveer 8 °fH, zacht water. Kalk slaat neer op de binnenwand en vormt samen met vet en zeep een laag die de buis stelselmatig vernauwt. In Haspengouw is een geleidelijk tragere afvoer daarom vaak een kalkverhaal; in de Kempen bijna nooit.",
+        a: "Door de waterhardheid. In Sint-Truiden ligt die rond 45 °fH en in Tongeren rond 42 °fH: heel hard water. In Lommel is het ongeveer 8 °fH, zacht water. Kalk slaat neer op de binnenwand en vormt samen met vet en zeep een laag die de buis stelselmatig vernauwt. In Haspengouw is een geleidelijk tragere afvoer daarom vaak een kalkverhaal; in de Kempen bijna nooit.",
       },
     ],
     inMenu: true,
@@ -296,7 +296,7 @@ export const services: Service[] = [
       },
       {
         v: "Hoeveel bespaart relining tegenover vervangen?",
-        a: "Relining ligt doorgaans 30 tot 40% lager dan volledige vervanging en de werfduur is ongeveer één werkdag in plaats van drie tot vijf. Daar komt bij dat u geen oprit, terras of tuin hoeft te herstellen — een kost die bij graafwerk vaak wordt onderschat. De levensduur van een correct uitgevoerde relining is minstens vijftig jaar.",
+        a: "Relining ligt doorgaans 30 tot 40% lager dan volledige vervanging en de werfduur is ongeveer één werkdag in plaats van drie tot vijf. Daar komt bij dat u geen oprit, terras of tuin hoeft te herstellen: een kost die bij graafwerk vaak wordt onderschat. De levensduur van een correct uitgevoerde relining is minstens vijftig jaar.",
       },
       {
         v: "Geldt hier 6% btw op?",
@@ -313,7 +313,7 @@ export const services: Service[] = [
     beschrijving:
       "Keuring van de privéwaterafvoer in Vlaanderen: in welke vier gevallen ze verplicht is, wie mag keuren, wat gecontroleerd wordt en wat het kost in 2026.",
     intro:
-      "Sinds juli 2011 is een keuring van de privéwaterafvoer verplicht in Vlaanderen. De keuringsplicht staat in artikel 12/1 van het Algemeen Waterverkoopreglement, met technische specificaties die AquaFlanders jaarlijks bijwerkt — de recentste versie dateert van januari 2026.",
+      "Sinds juli 2011 is een keuring van de privéwaterafvoer verplicht in Vlaanderen. De keuringsplicht staat in artikel 12/1 van het Algemeen Waterverkoopreglement, met technische specificaties die AquaFlanders jaarlijks bijwerkt: de recentste versie dateert van januari 2026.",
     wanneer: [
       "bij nieuwbouw of herbouw",
       "bij een nieuwe of bijkomende huisaansluiting, of plaatsing van een IBA",
@@ -335,7 +335,7 @@ export const services: Service[] = [
     faq: [
       {
         v: "Wie mag mijn privéwaterafvoer keuren?",
-        a: "Keurders die erkend zijn door Vlario of AquaFlanders, en ook het drinkwaterbedrijf zelf. Fluvius aanvaardt alle door Fluvius erkende keurders. Keurders volgen een opleiding met jaarlijkse bijscholing en moeten onmiddellijk na de keuring een conform digitaal keuringsdossier afleveren. Vraag dat dossier altijd op — u hebt het nodig bij de aansluiting en bij een latere verkoop.",
+        a: "Keurders die erkend zijn door Vlario of AquaFlanders, en ook het drinkwaterbedrijf zelf. Fluvius aanvaardt alle door Fluvius erkende keurders. Keurders volgen een opleiding met jaarlijkse bijscholing en moeten onmiddellijk na de keuring een conform digitaal keuringsdossier afleveren. Vraag dat dossier altijd op: u hebt het nodig bij de aansluiting en bij een latere verkoop.",
       },
       {
         v: "Wat als mijn keuring niet conform is?",

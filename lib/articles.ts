@@ -53,7 +53,7 @@ export const articles: Article[] = [
         h2: "Nacht- en weekendtoeslagen: hier zit het echte verschil",
         tekst: [
           "Een ontstopping op zondagnacht kan makkelijk het dubbele kosten van dezelfde ingreep op dinsdagochtend. Dat is geen willekeur: de toeslagen zijn in de sector vrij standaard.",
-          "Kunt u wachten tot de volgende ochtend, dan bespaart u vaak honderd euro of meer. Loopt er water uw woning binnen of is het uw enige toilet, dan is wachten geen optie — maar weet dan wat u betaalt.",
+          "Kunt u wachten tot de volgende ochtend, dan bespaart u vaak honderd euro of meer. Loopt er water uw woning binnen of is het uw enige toilet, dan is wachten geen optie, maar weet dan wat u betaalt.",
         ],
         tabel: {
           kop: ["Moment", "Toeslag", "Totaalprijs"],
@@ -88,7 +88,7 @@ export const articles: Article[] = [
         tekst: [
           "Een septische put van maximaal drie kubieke meter binnen twintig meter van de straat kost ongeveer 250 euro inclusief btw om te ledigen. Boven dat volume komt er ongeveer 30 euro per kubieke meter bij, en per tien meter extra afstand ongeveer 20 euro.",
           "Een regenwaterput reinigen loopt van 150 euro voor een put tot 3.000 liter tot 325 euro voor een put van 10.000 liter. Grotere putten gaan op offerte.",
-          "Moet de leiding hersteld worden, dan is relining bijna altijd voordeliger dan opgraven: 80 tot 150 euro per meter voor een standaardwoning, tegenover 200 tot 400 euro per meter bij traditioneel vervangen — en dan komt bij dat laatste het herstel van uw oprit, terras of tuin er nog bij.",
+          "Moet de leiding hersteld worden, dan is relining bijna altijd voordeliger dan opgraven: 80 tot 150 euro per meter voor een standaardwoning, tegenover 200 tot 400 euro per meter bij traditioneel vervangen, en dan komt bij dat laatste het herstel van uw oprit, terras of tuin er nog bij.",
         ],
         tabel: {
           kop: ["Werk", "Richtprijs"],
@@ -120,7 +120,7 @@ export const articles: Article[] = [
         h2: "Vier manieren om de rekening te drukken",
         lijst: [
           "Bel overdag als het kan. Het verschil tussen dinsdagochtend en zondagnacht is snel 150 euro.",
-          "Weet waar uw huisaansluitputje ligt. Een technicus die er meteen bij kan, werkt sneller — en u betaalt per tijdseenheid.",
+          "Weet waar uw huisaansluitputje ligt. Een technicus die er meteen bij kan, werkt sneller, en u betaalt per tijdseenheid.",
           "Laat bij een tweede verstopping binnen het jaar meteen een camera meegaan. Anders betaalt u elk jaar opnieuw voor hetzelfde symptoom.",
           "Vraag vooraf naar het btw-tarief en het starttarief inclusief verplaatsing. Die twee samen bepalen het gros van uw factuur.",
         ],
@@ -137,11 +137,11 @@ export const articles: Article[] = [
       },
       {
         v: "Krijg ik de kosten terug van mijn verzekering?",
-        a: "De ontstopping zelf valt zelden onder een woningpolis; die is er voor schade, niet voor onderhoud. Waterschade als gevolg van een gesprongen of overlopende leiding kan wél gedekt zijn. Bewaar in dat geval de camerabeelden en het verslag — een verzekeraar vraagt bijna altijd bewijs van de oorzaak.",
+        a: "De ontstopping zelf valt zelden onder een woningpolis; die is er voor schade, niet voor onderhoud. Waterschade als gevolg van een gesprongen of overlopende leiding kan wél gedekt zijn. Bewaar in dat geval de camerabeelden en het verslag: een verzekeraar vraagt bijna altijd bewijs van de oorzaak.",
       },
     ],
     bronnen: [
-      { naam: "FOD Financiën — btw-tarief bij verbouwen", url: "https://fin.belgium.be/nl/particulieren/woning/bouwen-verbouwen/verbouwen/verbouwen-btw-tarief" },
+      { naam: "FOD Financiën: btw-tarief bij verbouwen", url: "https://fin.belgium.be/nl/particulieren/woning/bouwen-verbouwen/verbouwen/verbouwen-btw-tarief" },
     ],
   },
   {
@@ -160,7 +160,7 @@ export const articles: Article[] = [
         tekst: [
           "Het technisch reglement voor huisaansluiting en privéwaterafvoer van Fluvius, versie juni 2025, legt het overnamepunt vast op de rooilijn: dat is de scheiding tussen huisaansluiting en privéwaterafvoer.",
           "Maar dan volgt de zin die telt: het onderhoud van de privéwaterafvoer en een deel van de huisaansluiting tot en met het huisaansluitputje valt steeds ten laste van de klant. Ligt dat putje op het openbaar domein, dan valt het onderhoud van de huisaansluiting tot aan het putje nog altijd ten laste van de klant.",
-          "Het huisaansluitputje blijft daarbij eigendom van de netbeheerder — maar het moet regelmatig door u geïnspecteerd en desgevallend vrijgemaakt worden. Eigendom en onderhoudsplicht liggen hier dus bewust uit elkaar.",
+          "Het huisaansluitputje blijft daarbij eigendom van de netbeheerder, maar het moet regelmatig door u geïnspecteerd en desgevallend vrijgemaakt worden. Eigendom en onderhoudsplicht liggen hier dus bewust uit elkaar.",
         ],
       },
       {
@@ -176,7 +176,7 @@ export const articles: Article[] = [
         h2: "Zelf vaststellen aan welke kant het zit",
         tekst: [
           "U kunt dit in vijf minuten zelf nagaan, en dat scheelt discussie én een verplaatsingskost.",
-          "Open het huisaansluitputje aan de rooilijn. Staat het vol water terwijl het niet regent, dan zit de verstopping stroomafwaarts — richting het openbare net. Is het leeg terwijl uw afvoer binnen niet doorloopt, dan zit het probleem tussen uw woning en dat putje, en is het voor u.",
+          "Open het huisaansluitputje aan de rooilijn. Staat het vol water terwijl het niet regent, dan zit de verstopping stroomafwaarts: richting het openbare net. Is het leeg terwijl uw afvoer binnen niet doorloopt, dan zit het probleem tussen uw woning en dat putje, en is het voor u.",
           "Een tweede aanwijzing: hebben uw buren hetzelfde probleem, dan wijst dat op het openbare stelsel. Bent u de enige, dan ligt het bij u.",
         ],
       },
@@ -221,8 +221,8 @@ export const articles: Article[] = [
       },
     ],
     bronnen: [
-      { naam: "Fluvius — technisch reglement huisaansluiting en privéwaterafvoer", url: "https://www.fluvius.be/sites/fluvius/files/2025-06/aanvullende-technische-voorschriften-awvr.pdf" },
-      { naam: "VMM — waterzuivering, een gedeelde verantwoordelijkheid", url: "https://vmm.vlaanderen.be/beleid/waterbeleid/riolering-en-waterzuivering/waterzuivering-gedeelde-verantwoordelijkheid" },
+      { naam: "Fluvius: technisch reglement huisaansluiting en privéwaterafvoer", url: "https://www.fluvius.be/sites/fluvius/files/2025-06/aanvullende-technische-voorschriften-awvr.pdf" },
+      { naam: "VMM: waterzuivering, een gedeelde verantwoordelijkheid", url: "https://vmm.vlaanderen.be/beleid/waterbeleid/riolering-en-waterzuivering/waterzuivering-gedeelde-verantwoordelijkheid" },
     ],
   },
   {
@@ -233,7 +233,7 @@ export const articles: Article[] = [
       "Overzicht van de rioolbeheerder per Limburgse gemeente: Fluvius, Riopact of het lokaal bestuur zelf. Plus wat dat concreet verandert aan uw aanvraag, melding en premie.",
     bijgewerkt: "augustus 2026",
     intro: [
-      "De meeste Limburgers gaan ervan uit dat Fluvius overal de riolering beheert. Dat klopt voor het grootste deel van de provincie, maar niet overal — en het verschil is niet academisch. Het bepaalt bij welk loket u een aansluiting aanvraagt, waar u een probleem op openbaar domein meldt en op welke premie u recht hebt.",
+      "De meeste Limburgers gaan ervan uit dat Fluvius overal de riolering beheert. Dat klopt voor het grootste deel van de provincie, maar niet overal, en het verschil is niet academisch. Het bepaalt bij welk loket u een aansluiting aanvraagt, waar u een probleem op openbaar domein meldt en op welke premie u recht hebt.",
     ],
     secties: [
       {
@@ -257,7 +257,7 @@ export const articles: Article[] = [
       {
         h2: "Waarom dit voor uw premie uitmaakt",
         tekst: [
-          "De Fluvius-premies gelden alleen in gemeenten waar Fluvius het rioolbeheer heeft overgenomen. Woont u in As, dan komt u daar niet voor in aanmerking — maar de gemeente heeft wel een eigen subsidie voor een individuele waterzuiveringsinstallatie.",
+          "De Fluvius-premies gelden alleen in gemeenten waar Fluvius het rioolbeheer heeft overgenomen. Woont u in As, dan komt u daar niet voor in aanmerking, maar de gemeente heeft wel een eigen subsidie voor een individuele waterzuiveringsinstallatie.",
           "Omgekeerd stapelen sommige gemeenten hun eigen premie bovenop die van Fluvius. Riemst heeft een aanvullende premie voor een hemelwaterput met pompinstallatie of een infiltratievoorziening, en Bilzen-Hoeselt heeft een eigen subsidie voor een hemelwaterinstallatie of infiltratievoorziening. Vraag de bedragen op bij uw gemeente: die staan lang niet altijd online.",
         ],
       },
@@ -265,7 +265,7 @@ export const articles: Article[] = [
         h2: "Drie niveaus, drie verantwoordelijkheden",
         lijst: [
           "U als eigenaar: alles tot en met het huisaansluitputje, plus zelf zuiveren waar er geen riolering ligt.",
-          "De gemeentelijke rioolbeheerder — Fluvius, Riopact of de gemeente: het openbare rioolnet, de aansluitingen en de septische-putvereisten.",
+          "De gemeentelijke rioolbeheerder, Fluvius, Riopact of de gemeente: het openbare rioolnet, de aansluitingen en de septische-putvereisten.",
           "Aquafin, in opdracht van het Vlaamse Gewest: de bovengemeentelijke collectoren en de rioolwaterzuiveringsinstallaties.",
         ],
       },
@@ -273,14 +273,14 @@ export const articles: Article[] = [
         h2: "Hoe staat Limburg ervoor?",
         tekst: [
           "Vlaanderen haalt een rioleringsgraad van 94,2% in april 2026, met een zuiveringsgraad van 88,6% en een saneringsgraad van 89,0% eind 2024. Ongeveer 2% van de Vlamingen woont te afgelegen voor collectieve riolering en is aangewezen op een verplichte individuele behandelingsinstallatie.",
-          "Van de benodigde installaties is er 33,3% gerealiseerd — ongeveer 17.850 stuks. In landelijke Limburgse gemeenten zoals Voeren, Heers en delen van Borgloon is dat geen abstract cijfer: daar zit een deel van de woningen nog altijd op een septische put of een individuele installatie in afwachting van de collector.",
+          "Van de benodigde installaties is er 33,3% gerealiseerd: ongeveer 17.850 stuks. In landelijke Limburgse gemeenten zoals Voeren, Heers en delen van Borgloon is dat geen abstract cijfer: daar zit een deel van de woningen nog altijd op een septische put of een individuele installatie in afwachting van de collector.",
         ],
       },
     ],
     faq: [
       {
         v: "Hoe weet ik zeker wie mijn rioolbeheerder is?",
-        a: "AquaFlanders publiceert dat per postcode op mijn drinkwaterbedrijf en rioolbeheerder. Krijgt u daar geen beheerder te zien maar de melding om contact op te nemen met uw gemeente, dan beheert het lokaal bestuur de riolering zelf — dat is bijvoorbeeld het geval voor Bilzen-Hoeselt.",
+        a: "AquaFlanders publiceert dat per postcode op mijn drinkwaterbedrijf en rioolbeheerder. Krijgt u daar geen beheerder te zien maar de melding om contact op te nemen met uw gemeente, dan beheert het lokaal bestuur de riolering zelf: dat is bijvoorbeeld het geval voor Bilzen-Hoeselt.",
       },
       {
         v: "Verandert er iets door de gemeentefusies van 2025?",
@@ -288,8 +288,8 @@ export const articles: Article[] = [
       },
     ],
     bronnen: [
-      { naam: "AquaFlanders — mijn drinkwaterbedrijf en rioolbeheerder", url: "https://www.aquaflanders.be/mijn-drinkwaterbedrijf-en-rioolbeheerder" },
-      { naam: "VMM — riolerings- en zuiveringsgraad", url: "https://vmm.vlaanderen.be/feiten-cijfers/water/riolering-en-waterzuivering/indicator-zuiveringsgraad" },
+      { naam: "AquaFlanders: mijn drinkwaterbedrijf en rioolbeheerder", url: "https://www.aquaflanders.be/mijn-drinkwaterbedrijf-en-rioolbeheerder" },
+      { naam: "VMM: riolerings- en zuiveringsgraad", url: "https://vmm.vlaanderen.be/feiten-cijfers/water/riolering-en-waterzuivering/indicator-zuiveringsgraad" },
     ],
   },
   {
@@ -338,7 +338,7 @@ export const articles: Article[] = [
       {
         h2: "Waarom dit in Limburg per streek anders uitpakt",
         tekst: [
-          "Op de Kempense zandgronden — Lommel, Zutendaal, Hechtel-Eksel, Beringen — werkt infiltratie uitstekend. Het hemelwater- en droogteplan van Zutendaal noemt de bodem daar zelfs uiterst geschikt voor infiltratie, en Fluvius testte er poreuze betonbuizen en doorlatend wegdek uit.",
+          "Op de Kempense zandgronden: Lommel, Zutendaal, Hechtel-Eksel, Beringen: werkt infiltratie uitstekend. Het hemelwater- en droogteplan van Zutendaal noemt de bodem daar zelfs uiterst geschikt voor infiltratie, en Fluvius testte er poreuze betonbuizen en doorlatend wegdek uit.",
           "In Vochtig Haspengouw ligt dat anders. Alken heeft een ondoorlatende kleibodem met veel bronnen; Heers en Gingelom liggen op leem waar water nauwelijks doorheen zakt. Daar is de bufferoptie met 43 liter per vierkante meter vaak realistischer dan een klassieke infiltratieput.",
           "Laat de doorlatendheid daarom ter plaatse testen voor u een systeem kiest. Een infiltratieput die op papier voldoet maar in leem staat, loopt bij elke stevige bui over.",
         ],
@@ -355,7 +355,7 @@ export const articles: Article[] = [
       },
     ],
     bronnen: [
-      { naam: "Departement Omgeving — de gewestelijke hemelwaterverordening 2023", url: "https://omgeving.vlaanderen.be/nl/verordeningen/de-gewestelijke-hemelwaterverordening-2023" },
+      { naam: "Departement Omgeving: de gewestelijke hemelwaterverordening 2023", url: "https://omgeving.vlaanderen.be/nl/verordeningen/de-gewestelijke-hemelwaterverordening-2023" },
     ],
   },
   {
@@ -394,7 +394,7 @@ export const articles: Article[] = [
           "Heusden-Zolder en Herk-de-Stad: een eigen gemeentelijke subsidie voor afkoppeling of gescheiden riolering.",
         ],
         tekst: [
-          "De exacte bedragen van die gemeentelijke premies staan lang niet altijd online. Bel de milieudienst van uw gemeente voor u een aannemer aanstelt — sommige premies vereisen dat u de aanvraag indient voordat de werken starten.",
+          "De exacte bedragen van die gemeentelijke premies staan lang niet altijd online. Bel de milieudienst van uw gemeente voor u een aannemer aanstelt: sommige premies vereisen dat u de aanvraag indient voordat de werken starten.",
         ],
       },
       {
@@ -412,12 +412,12 @@ export const articles: Article[] = [
       },
       {
         v: "Kan ik gemeentelijke en Fluvius-premies combineren?",
-        a: "In veel gevallen wel — Fluvius bevestigt zelf dat sommige gemeenten een extra premie bovenop de hunne geven. Riemst en Bilzen-Hoeselt zijn daar Limburgse voorbeelden van. Controleer wel de voorwaarden van de gemeentelijke premie: die vraagt soms dat u aanvraagt vóór de start van de werken, terwijl Fluvius achteraf werkt.",
+        a: "In veel gevallen wel: Fluvius bevestigt zelf dat sommige gemeenten een extra premie bovenop de hunne geven. Riemst en Bilzen-Hoeselt zijn daar Limburgse voorbeelden van. Controleer wel de voorwaarden van de gemeentelijke premie: die vraagt soms dat u aanvraagt vóór de start van de werken, terwijl Fluvius achteraf werkt.",
       },
     ],
     bronnen: [
-      { naam: "Fluvius — premie gescheiden afvoersysteem", url: "https://www.fluvius.be/nl/premies/gescheiden-afvoersysteem" },
-      { naam: "VMM — subsidies IBA", url: "https://vmm.vlaanderen.be/diensten-producten/subsidies-iba" },
+      { naam: "Fluvius: premie gescheiden afvoersysteem", url: "https://www.fluvius.be/nl/premies/gescheiden-afvoersysteem" },
+      { naam: "VMM: subsidies IBA", url: "https://vmm.vlaanderen.be/diensten-producten/subsidies-iba" },
     ],
   },
   {
@@ -450,7 +450,7 @@ export const articles: Article[] = [
       {
         h2: "Wat u beter niet doet",
         lijst: [
-          "Geen bijtende chemische ontstopper. Die lost haar en zeep op, maar bijna nooit vochtige doekjes, kalk of wortels — de drie oorzaken die wij het vaakst zien. Werkt het niet, dan staat er wel bijtend water in uw buis wanneer de technicus begint.",
+          "Geen bijtende chemische ontstopper. Die lost haar en zeep op, maar bijna nooit vochtige doekjes, kalk of wortels: de drie oorzaken die wij het vaakst zien. Werkt het niet, dan staat er wel bijtend water in uw buis wanneer de technicus begint.",
           "Geen kleerhanger of metalen staaf. U beschadigt het porselein of duwt de prop verder de leiding in, waar hij lastiger te bereiken is.",
           "Geen kokend water in een keramische wc. Het risico op haarscheuren is reëel; lauw tot warm water is veilig.",
           "Geen tuinslang onder druk in de pot. U duwt vuil water terug in uw eigen leidingnet.",
@@ -478,7 +478,7 @@ export const articles: Article[] = [
     faq: [
       {
         v: "Zijn doorspoelbare doekjes echt doorspoelbaar?",
-        a: "Nee, in de praktijk niet. Ze breken niet af zoals wc-papier en haken in de leiding aan elke oneffenheid — een voeg, een ruwe rand, een bocht. Daar vormen ze een net waarin vet en haar blijven hangen. Bij drukriolering, zoals in verspreide buitengebieden, blokkeren ze bovendien de pomp. Ook doekjes met de vermelding doorspoelbaar horen in de vuilnisbak.",
+        a: "Nee, in de praktijk niet. Ze breken niet af zoals wc-papier en haken in de leiding aan elke oneffenheid: een voeg, een ruwe rand, een bocht. Daar vormen ze een net waarin vet en haar blijven hangen. Bij drukriolering, zoals in verspreide buitengebieden, blokkeren ze bovendien de pomp. Ook doekjes met de vermelding doorspoelbaar horen in de vuilnisbak.",
       },
       {
         v: "Helpt soda of azijn tegen een verstopte wc?",
@@ -498,7 +498,7 @@ export const articles: Article[] = [
       "Acht concrete controlepunten voor u een ontstoppingsdienst belt in Limburg: van een duidelijk starttarief en btw-tarief tot camera-controle achteraf en afvoer van slib.",
     bijgewerkt: "augustus 2026",
     intro: [
-      "Bij een verstopping belt u zelden rustig rond. Toch bepalen een paar vragen aan de telefoon of u een correcte factuur krijgt of een onaangename verrassing. Dit zijn de acht punten die het verschil maken — bruikbaar bij ons én bij eender welke andere firma.",
+      "Bij een verstopping belt u zelden rustig rond. Toch bepalen een paar vragen aan de telefoon of u een correcte factuur krijgt of een onaangename verrassing. Dit zijn de acht punten die het verschil maken: bruikbaar bij ons én bij eender welke andere firma.",
     ],
     secties: [
       {
@@ -522,7 +522,7 @@ export const articles: Article[] = [
       {
         h2: "Camera-controle na de ontstopping",
         tekst: [
-          "Een ontstopping zonder nacontrole is een gok. Vraag of er na het vrijmaken met camera gekeken wordt of de buis intact is. Bij een tweede verstopping binnen het jaar zou dat standaard moeten zijn — anders betaalt u elk jaar opnieuw voor hetzelfde symptoom.",
+          "Een ontstopping zonder nacontrole is een gok. Vraag of er na het vrijmaken met camera gekeken wordt of de buis intact is. Bij een tweede verstopping binnen het jaar zou dat standaard moeten zijn: anders betaalt u elk jaar opnieuw voor hetzelfde symptoom.",
         ],
       },
       {
@@ -531,7 +531,7 @@ export const articles: Article[] = [
           "Plotse verstopping met een duidelijke aanleiding: een spiraal volstaat.",
           "Geleidelijk trager wordende afvoer: hogedruk, want dan is de wand vernauwd.",
           "Terugkerende verstopping op dezelfde plek: eerst camera, dan pas beslissen.",
-          "Wortels: frezen — maar weet dat ze terugkomen als de voeg niet hersteld wordt.",
+          "Wortels: frezen, maar weet dat ze terugkomen als de voeg niet hersteld wordt.",
         ],
       },
       {
@@ -556,11 +556,11 @@ export const articles: Article[] = [
     faq: [
       {
         v: "Wat is een redelijke wachttijd bij een spoedgeval?",
-        a: "Voor een echt spoedgeval — water dat uw woning binnenkomt of uw enige toilet dat onbruikbaar is — is één tot twee uur in Limburg realistisch, afhankelijk van het uur en de drukte. Wordt u een halve dag later beloofd terwijl er water staat, vraag dan of er iemand dichterbij vrij is. Voor niet-dringende zaken wint u geld door tot de volgende ochtend te wachten.",
+        a: "Voor een echt spoedgeval: water dat uw woning binnenkomt of uw enige toilet dat onbruikbaar is: is één tot twee uur in Limburg realistisch, afhankelijk van het uur en de drukte. Wordt u een halve dag later beloofd terwijl er water staat, vraag dan of er iemand dichterbij vrij is. Voor niet-dringende zaken wint u geld door tot de volgende ochtend te wachten.",
       },
       {
         v: "Moet ik aanwezig zijn tijdens de werken?",
-        a: "Voor de vaststelling en de goedkeuring van de prijs wel. Wij tonen u ook liever zelf de camerabeelden — dat maakt de beslissing over eventueel vervolgwerk een stuk concreter dan een verslag achteraf. Bij een lediging van een put die vlot bereikbaar is, is aanwezigheid meestal niet strikt nodig.",
+        a: "Voor de vaststelling en de goedkeuring van de prijs wel. Wij tonen u ook liever zelf de camerabeelden: dat maakt de beslissing over eventueel vervolgwerk een stuk concreter dan een verslag achteraf. Bij een lediging van een put die vlot bereikbaar is, is aanwezigheid meestal niet strikt nodig.",
       },
     ],
   },

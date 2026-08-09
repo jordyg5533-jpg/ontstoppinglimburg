@@ -68,3 +68,29 @@ body {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+/* Merkfont: alleen voor het woordmerk in het logo, zodat de site en de
+   logobestanden dezelfde letter gebruiken. Gesubset tot ~3 KB, dus dit kost
+   praktisch geen laadtijd. De rest van de site blijft systeemfont. */
+@font-face {
+  font-family: "Merk";
+  src: url("/fonts/poppins-bold-subset.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-merk,
+h1,
+h2,
+h3,
+.prose-nl h2,
+.prose-nl h3 {
+  font-family: "Merk", ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: -0.018em;
+}
+
+.prose-nl h2 {
+  font-size: 1.375rem;
+  line-height: 1.9rem;
+}

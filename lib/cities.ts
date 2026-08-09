@@ -16,5 +16,5 @@ export function getCity(slug: string): City | undefined {
   return cities.find((c) => c.slug === slug);
 }
 
-/** De grootste kernen — gebruikt in de navigatie en op de homepage. */
+/** De grootste kernen, gebruikt in de navigatie en op de homepage. */
 export const hoofdSteden = cities.filter((c) => c.prioriteit === 1);

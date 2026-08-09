@@ -1,6 +1,6 @@
 import type { City } from "./city-types";
 
-/** Groep D — Zuid-Limburg, de Voerstreek en de Zuiderkempen. */
+/** Groep D: Zuid-Limburg, de Voerstreek en de Zuiderkempen. */
 export const citiesD: City[] = [
   {
     slug: "bilzen",
@@ -18,20 +18,20 @@ export const citiesD: City[] = [
       "Voor postcode 3740 vermeldt AquaFlanders geen externe rioolbeheerder maar verwijst naar de gemeente. Bilzen-Hoeselt regelt rioolaansluitingen via een eigen aanvraagformulier en heeft een eigen subsidie voor een gescheiden afvoersysteem.",
     bodem: "Bodemgrens tussen zandig Kempen en lemig Vochtig-Haspengouw, met de Demervallei dwars door de kern.",
     bouwprofiel:
-      "Bilzen ligt halverwege Hasselt en Maastricht, langs de E313 en de spoorlijn Hasselt-Luik. De stad groeide sinds 1990 met ruim een kwart en telt ruim 18.000 adressen — een mix van historische kernen en recentere verkavelingen.",
+      "Bilzen ligt halverwege Hasselt en Maastricht, langs de E313 en de spoorlijn Hasselt-Luik. De stad groeide sinds 1990 met ruim een kwart en telt ruim 18.000 adressen: een mix van historische kernen en recentere verkavelingen.",
     landmarks: ["de Kattenberg", "Park Haffmans", "de Demervallei", "het Albertkanaal", "de landcommanderij Alden Biesen in Rijkhoven"],
     werken:
       "Aquafin legt gescheiden riolering aan in de Schalkhovenstraat en Lindenhofstraat. In Rosmeer, Munsterbilzen en Hoelbeek werden werven afgerond.",
     probleem:
       "Bilzen-Hoeselt is een van de weinige Limburgse gemeenten waar de riolering niet bij Fluvius zit maar bij het lokaal bestuur. Meldingen en aanvragen lopen dus via de stad. Daarbovenop ligt de gemeente op de bodemgrens Kempen-Haspengouw, met de Demervallei dwars door de kern.",
     uniek:
-      "In Bilzen belt u voor het openbare riool de stad en niet Fluvius. En binnen één gemeente wisselt de ondergrond van zandig Kempen naar lemig Haspengouw — wat betekent dat infiltratie in Eigenbilzen realistisch kan zijn en in Rosmeer veel minder.",
+      "In Bilzen belt u voor het openbare riool de stad en niet Fluvius. En binnen één gemeente wisselt de ondergrond van zandig Kempen naar lemig Haspengouw: wat betekent dat infiltratie in Eigenbilzen realistisch kan zijn en in Rosmeer veel minder.",
     waterhardheid: 35,
     statusTool: { dekking: 95, risicovol: 38 },
     faq: [
       {
         v: "Bij wie meld ik in Bilzen een verstopping in de straatriolering?",
-        a: "Bij de stad Bilzen-Hoeselt. Voor postcode 3740 verwijst AquaFlanders uitdrukkelijk naar de gemeente in plaats van naar Fluvius: het lokaal bestuur beheert de riolering zelf. De stad regelt ook rioolaansluitingen via een eigen aanvraagformulier en heeft een eigen subsidie voor de aanleg van een gescheiden afvoersysteem — die staat los van de Fluvius-premie.",
+        a: "Bij de stad Bilzen-Hoeselt. Voor postcode 3740 verwijst AquaFlanders uitdrukkelijk naar de gemeente in plaats van naar Fluvius: het lokaal bestuur beheert de riolering zelf. De stad regelt ook rioolaansluitingen via een eigen aanvraagformulier en heeft een eigen subsidie voor de aanleg van een gescheiden afvoersysteem: die staat los van de Fluvius-premie.",
       },
     ],
     volgorde: ["netwerk", "problemen", "diensten", "prijzen", "wetgeving", "werkwijze", "gebied"],
@@ -89,11 +89,11 @@ export const citiesD: City[] = [
     probleem:
       "Voeren zit midden in een rioleringsinhaalbeweging. De burgemeester stelde in 2022 dat het nog zeker tot 2027 duurt voor alle hoofdleidingen in alle deelgemeenten liggen. Tot dan blijven septische putten en IBA's voor een deel van de woningen de eindoplossing.",
     uniek:
-      "In Voeren bepaalt uw dorp of u al op collectieve riolering zit. De hellingen tot 240 meter zorgen bovendien voor hoge stroomsnelheden en voor bron- en kwelwater dat in het stelsel terechtkomt — twee dingen die u in vlak Limburg niet tegenkomt.",
+      "In Voeren bepaalt uw dorp of u al op collectieve riolering zit. De hellingen tot 240 meter zorgen bovendien voor hoge stroomsnelheden en voor bron- en kwelwater dat in het stelsel terechtkomt: twee dingen die u in vlak Limburg niet tegenkomt.",
     faq: [
       {
         v: "Ik zit in Voeren nog op een septische put of IBA. Wat moet ik onderhouden?",
-        a: "Een septische put laat u het best om de drie à vijf jaar ledigen; hoe vaak precies hangt af van het volume en het aantal bewoners. Signalen dat ze vol zit: een trage wc- of doucheafvoer, geurhinder en een borrelend geluid in de leiding. Bij een IBA komt daar het beheer van de installatie zelf bij — controleer of dat via de rioolbeheerder loopt of via uzelf. Wacht niet tot de put overloopt: een volle put duwt terug richting uw woning.",
+        a: "Een septische put laat u het best om de drie à vijf jaar ledigen; hoe vaak precies hangt af van het volume en het aantal bewoners. Signalen dat ze vol zit: een trage wc- of doucheafvoer, geurhinder en een borrelend geluid in de leiding. Bij een IBA komt daar het beheer van de installatie zelf bij: controleer of dat via de rioolbeheerder loopt of via uzelf. Wacht niet tot de put overloopt: een volle put duwt terug richting uw woning.",
       },
     ],
     volgorde: ["gebied", "problemen", "diensten", "wetgeving", "prijzen", "werkwijze", "netwerk"],
@@ -111,7 +111,7 @@ export const citiesD: City[] = [
     waterlopen: ["de Zutendaalbeek", "de Broekerbeek", "de Bezoensbeek", "de Heiwickbeek"],
     rioolbeheerder: "Fluvius",
     bodem:
-      "Zandbodem met beperkte hellingen, in het hemelwaterplan omschreven als uiterst geschikt voor infiltratie. Het plateau ligt rond 102 meter, de Albertkanaalzone rond 61 meter — 41 meter hoogteverschil.",
+      "Zandbodem met beperkte hellingen, in het hemelwaterplan omschreven als uiterst geschikt voor infiltratie. Het plateau ligt rond 102 meter, de Albertkanaalzone rond 61 meter: 41 meter hoogteverschil.",
     bouwprofiel:
       "Een jong woningpark met als dominante woningtype de eengezinswoning in open bebouwing, typisch landelijk. Appartementen nemen geleidelijk toe. Leegstand en verkrotting zijn verwaarloosbaar ten opzichte van het Vlaamse gemiddelde.",
     landmarks: ["Lieteberg als toegangspoort tot het Nationaal Park Hoge Kempen", "de vliegbasis en het tankmonument", "de watertoren", "de Hesselsberg"],
@@ -120,7 +120,7 @@ export const citiesD: City[] = [
     probleem:
       "Ondanks een aansluitingsgraad van 95,95% bestaat een groot deel van het rioleringsstelsel uit een gemengd stelsel dat regelmatig overstort op waterlopen. De zandgrond heeft een keerzijde: zand spoelt makkelijk in oude leidingen en putten.",
     uniek:
-      "Zutendaal heeft een uitzonderlijk hoge aansluitingsgraad — 95,95% van de inwoners zit op waterzuivering — en is de plek waar Fluvius poreuze betonbuizen en doorlatend wegdek uittestte. Toch is het net grotendeels gemengd, met regelmatige overstorten.",
+      "Zutendaal heeft een uitzonderlijk hoge aansluitingsgraad: 95,95% van de inwoners zit op waterzuivering, en is de plek waar Fluvius poreuze betonbuizen en doorlatend wegdek uittestte. Toch is het net grotendeels gemengd, met regelmatige overstorten.",
     faq: [
       {
         v: "Waar gaat mijn afvalwater in Zutendaal naartoe?",
@@ -206,14 +206,14 @@ export const citiesD: City[] = [
     bodem:
       "Voornamelijk lemig zand, afgewisseld met droge zandbodem en een kleiige ondergrond nabij de waterlopen, met slecht doorlatende zones uit ijzerhoudende zandsteen op de toppen. De grondwaterstand ligt op 1 à 2 meter onder het maaiveld.",
     bouwprofiel:
-      "De traditionele dorpskern had een rechthoekige markt met de Sint-Martinuskerk. De explosie van ammoniumnitraat op 29 april 1942 doodde 189 mensen en verwoestte de historische kern — een groot deel van het centrum is dus naoorlogse wederopbouw. In de jaren 1960 werd Tessenderlo aangeduid als eerste industriezone van nationaal belang van België.",
+      "De traditionele dorpskern had een rechthoekige markt met de Sint-Martinuskerk. De explosie van ammoniumnitraat op 29 april 1942 doodde 189 mensen en verwoestte de historische kern: een groot deel van het centrum is dus naoorlogse wederopbouw. In de jaren 1960 werd Tessenderlo aangeduid als eerste industriezone van nationaal belang van België.",
     landmarks: ["de Sint-Martinuskerk en de Markt", "de fabriek van Tessenderlo Group", "het bos- en heidegebied Gerhagen", "de Sint-Luciakerk in Engsbergen"],
     werken:
       "Het project Wasseven werd in februari 2026 afgerond. Verder lopen projecten in Genebos, de Gerhoevenstraat, de Gerhagenstraat en een groot pakket rond de Laarbossenstraat, Molenstraat en Putstraat.",
     probleem:
       "Het hemelwaterplan noemt concrete knelpunten voor wateroverlast: Biesdelle, Molenstraat, Neerstraat, Transportstraat en Kanaalweg, plus overstorten bij Begijnenwinning en Paalseweg. Daarnaast werd de Winterbeek over 17 kilometer gesaneerd na historische verontreiniging met zware metalen en zouten uit de jaren 1960-1970.",
     uniek:
-      "Tessenderlo is de enige Limburgse gemeente waar de historische kern in 1942 door een fabrieksexplosie verwoest werd — het centrum is grotendeels wederopbouw. En de grondwaterstand van 1 à 2 meter maakt dat een defecte leiding hier snel grondwater binnenlaat.",
+      "Tessenderlo is de enige Limburgse gemeente waar de historische kern in 1942 door een fabrieksexplosie verwoest werd: het centrum is grotendeels wederopbouw. En de grondwaterstand van 1 à 2 meter maakt dat een defecte leiding hier snel grondwater binnenlaat.",
     faq: [
       {
         v: "Mijn straat staat in het hemelwaterplan als knelpunt. Wat betekent dat?",
@@ -237,18 +237,18 @@ export const citiesD: City[] = [
     rioolbeheerder: "Fluvius",
     bodem: "Natte zandgronden met lichte golvingen in het oosten, aflopend naar het zuidwesten.",
     bouwprofiel:
-      "Ham groeide sinds 1990 met 34%, van 8.492 naar ruim 11.000 inwoners — de sterkste groeier van de Zuiderkempen. Dat betekent dat een aanzienlijk deel van de woningvoorraad relatief recent is, met bijbehorende recentere aansluitingen.",
+      "Ham groeide sinds 1990 met 34%, van 8.492 naar ruim 11.000 inwoners: de sterkste groeier van de Zuiderkempen. Dat betekent dat een aanzienlijk deel van de woningvoorraad relatief recent is, met bijbehorende recentere aansluitingen.",
     landmarks: ["de sluis van Kwaadmechelen-Ham op het Albertkanaal", "het kanaal Bocholt-Herentals", "de Grote Netevallei"],
     werken:
       "De sanering van de Grote Laak loopt van het lozingspunt in Ham tot de monding in de Grote Nete, over 18 kilometer. Deelgebied 1 was klaar in juni 2022, deelgebied 2 in juli 2025, deelgebied 4 startte in juli 2025 en deelgebied 3 volgt in 2026-2027.",
     probleem:
       "De Grote Laak draagt de erfenis van industriële lozingen: slib en vervuilde bodem worden tot twintig centimeter diepte afgegraven en afgevoerd naar een saneringsberging. Voor bewoners betekent dat werfverkeer en tijdelijke omleggingen, maar op termijn een gezondere waterloop.",
     uniek:
-      "Ham groeide in vijfendertig jaar met een derde — sneller dan eender welke buurgemeente. Veel woningen hier zijn dus jonger dan het gemiddelde Limburgse huis, wat betekent dat een verstopping vaker aan gebruik ligt dan aan een versleten leiding.",
+      "Ham groeide in vijfendertig jaar met een derde: sneller dan eender welke buurgemeente. Veel woningen hier zijn dus jonger dan het gemiddelde Limburgse huis, wat betekent dat een verstopping vaker aan gebruik ligt dan aan een versleten leiding.",
     faq: [
       {
         v: "Mijn woning is relatief nieuw. Waarom heb ik dan toch een verstopping?",
-        a: "Bij nieuwere woningen ligt de oorzaak meestal niet bij de leiding zelf maar bij wat erin gaat: vochtige doekjes, vet, kattenbakvulling of bouwafval van een verbouwing. Een tweede klassieker bij recentere bouw is een te vlakke of verkeerd aangelegde leiding waardoor het verval te klein is. Dat ziet u niet, maar een camera-inspectie met hellingmeting toont het meteen — en dan weet u dat opnieuw ontstoppen alleen uitstel is.",
+        a: "Bij nieuwere woningen ligt de oorzaak meestal niet bij de leiding zelf maar bij wat erin gaat: vochtige doekjes, vet, kattenbakvulling of bouwafval van een verbouwing. Een tweede klassieker bij recentere bouw is een te vlakke of verkeerd aangelegde leiding waardoor het verval te klein is. Dat ziet u niet, maar een camera-inspectie met hellingmeting toont het meteen, en dan weet u dat opnieuw ontstoppen alleen uitstel is.",
       },
     ],
     volgorde: ["diensten", "netwerk", "problemen", "prijzen", "werkwijze", "wetgeving", "gebied"],

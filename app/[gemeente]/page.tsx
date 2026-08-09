@@ -8,6 +8,8 @@ import { site } from "@/lib/site";
 import { Breadcrumbs, CallButton, FaqList, H2, Jsonld, PriceTable, Section } from "@/components/ui";
 import { LeadForm } from "@/components/LeadForm";
 import { RooilijnDiagram } from "@/components/Diagram";
+import { HeroAchtergrond } from "@/components/Hero";
+import { OfferteKnop } from "@/components/Offerte";
 
 export function generateStaticParams() {
   return cities.map((c) => ({ gemeente: c.slug }));
@@ -23,7 +25,7 @@ export async function generateMetadata({
   if (!c) return {};
   return {
     title: `Ontstopping ${c.naam} | Riool & afvoer 24/7 | Limburg Ontstoppingsdienst`,
-    description: `Riool of afvoer verstopt in ${c.naam}? Ontstopping, camera-inspectie en rioolherstel met richtprijs vooraf. ${c.rioolbeheerder.startsWith("Fluvius") ? "Fluvius" : c.rioolbeheerder} beheert hier het openbare net — wij doen alles tot en met uw huisaansluitputje.`,
+    description: `Riool of afvoer verstopt in ${c.naam}? Ontstopping, camera-inspectie en rioolherstel met richtprijs vooraf. ${c.rioolbeheerder.startsWith("Fluvius") ? "Fluvius" : c.rioolbeheerder} beheert hier het openbare net, wij doen alles tot en met uw huisaansluitputje.`,
     alternates: { canonical: `/${c.slug}` },
   };
 }
@@ -90,7 +92,7 @@ function BlokNetwerk({ c }: { c: City }) {
       <p className="mb-4 leading-relaxed text-ink-800">
         Het openbare rioolnet in {c.naam} wordt beheerd door <strong>{c.rioolbeheerder}</strong>.
         {c.rioolbeheerderNoot ? ` ${c.rioolbeheerderNoot}` : ""} Uw eigen verantwoordelijkheid loopt tot en met het
-        huisaansluitputje aan de rooilijn — ook wanneer dat putje op de stoep ligt.
+        huisaansluitputje aan de rooilijn, ook wanneer dat putje op de stoep ligt.
       </p>
       {c.werken ? (
         <>
@@ -134,7 +136,7 @@ function BlokProblemen({ c }: { c: City }) {
           De waterhardheid ligt in {c.naam} rond {c.waterhardheid} °fH.{" "}
           {c.waterhardheid >= 30
             ? "Dat is hard tot heel hard water: kalk slaat neer op de binnenwand van uw afvoer en vernauwt de buis geleidelijk. Wordt uw afvoer over maanden trager in plaats van plots dicht te gaan, dan is hogedrukreiniging hier vaak effectiever dan een spiraal."
-            : "Dat is zacht tot middelhard water. Kalkaanslag speelt hier dus een beperkte rol — verstoppingen komen hier meestal van vet, wortels of ingespoeld materiaal."}
+            : "Dat is zacht tot middelhard water. Kalkaanslag speelt hier dus een beperkte rol: verstoppingen komen hier meestal van vet, wortels of ingespoeld materiaal."}
         </p>
       ) : null}
       <h3 className="mb-1.5 mt-6 text-lg font-bold text-ink-800">De woningen in {c.naam}</h3>
@@ -319,13 +321,14 @@ export default async function GemeentePagina({ params }: { params: Promise<{ gem
     <>
       <Jsonld data={schema} />
 
-      <div className="bg-gradient-to-b from-ink-950 to-ink-800 text-white">
-        <div className="mx-auto grid w-full max-w-6xl gap-10 px-5 py-12 sm:px-6 lg:grid-cols-[1.15fr_1fr] lg:py-16">
+      <div className="relative isolate overflow-hidden text-white">
+        <HeroAchtergrond />
+        <div className="relative mx-auto grid w-full max-w-6xl gap-10 px-5 py-12 sm:px-6 lg:grid-cols-[1.15fr_1fr] lg:py-16">
           <div>
             <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-water-400">
               {c.streek}
             </p>
-            <h1 className="text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">
+            <h1 className="text-[1.6rem] font-bold leading-[1.18] tracking-tight sm:text-[1.95rem]">
               Ontstopping in {c.naam}: riool en afvoer vrij, met camera-controle
             </h1>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-white/80">{c.uniek}</p>
@@ -336,12 +339,7 @@ export default async function GemeentePagina({ params }: { params: Promise<{ gem
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <CallButton />
-              <Link
-                href="#prijsindicatie"
-                className="inline-flex items-center justify-center rounded-lg border-2 border-white/30 px-6 py-3.5 font-semibold text-white transition hover:bg-white/10"
-              >
-                Prijsindicatie voor {c.naam}
-              </Link>
+              <OfferteKnop variant="wit" gemeente={c.naam} />
             </div>
           </div>
           <div id="prijsindicatie" className="lg:pt-2">
@@ -379,11 +377,12 @@ export default async function GemeentePagina({ params }: { params: Promise<{ gem
         <Section className="text-center">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">Verstopping in {c.naam}?</h2>
           <p className="mx-auto mt-3 max-w-xl leading-relaxed text-white/75">
-            Bel gerust — u krijgt meteen een realistische richtprijs en een eerlijk antwoord op de vraag of het dringend
+            Bel gerust: u krijgt meteen een realistische richtprijs en een eerlijk antwoord op de vraag of het dringend
             is. Kan het wachten tot morgen, dan zeggen we dat.
           </p>
-          <div className="mt-6 flex justify-center">
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
             <CallButton />
+            <OfferteKnop variant="wit" gemeente={c.naam} />
           </div>
         </Section>
       </div>

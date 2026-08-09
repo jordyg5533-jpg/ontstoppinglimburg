@@ -1,6 +1,6 @@
 import type { City } from "./city-types";
 
-/** Groep A — de grote kernen en de Mijnstreek. */
+/** Groep A: de grote kernen en de Mijnstreek. */
 export const citiesA: City[] = [
   {
     slug: "hasselt",
@@ -17,7 +17,7 @@ export const citiesA: City[] = [
     bodem:
       "Het noorden van Hasselt ligt op Kempense zandbodem waar regenwater vlot wegzakt; het zuiden is kleiig leem van Vochtig-Haspengouw, waar dat nauwelijks lukt.",
     bouwprofiel:
-      "Naast de historische binnenstad liggen de gehuchten Godsheide, Rapertingen en Kiewit en de naoorlogse wijken Runkst en Banneuxwijk. De stad groeide sinds 1990 met een kwart, van 64.509 naar ruim 80.000 inwoners — een groot deel van het aangesloten afvoernet is dus jonger dan de binnenstad, maar de kern zelf niet.",
+      "Naast de historische binnenstad liggen de gehuchten Godsheide, Rapertingen en Kiewit en de naoorlogse wijken Runkst en Banneuxwijk. De stad groeide sinds 1990 met een kwart, van 64.509 naar ruim 80.000 inwoners: een groot deel van het aangesloten afvoernet is dus jonger dan de binnenstad, maar de kern zelf niet.",
     landmarks: ["de Kiezelstraat", "Runkst", "de Banneuxwijk", "Kiewit", "Godsheide", "de oevers van het Albertkanaal"],
     werken:
       "In de Kiezelstraat legt Aquafin gescheiden riolering aan: fase 1 startte in oktober 2025 tussen Universiteitslaan en Kleinstraat, fase 2 in maart 2026 tot de Platte-Vijversstraat, met einde voorzien eind 2026. Ook in de Paalsteenstraat wordt gewerkt. Na de aanleg van een gescheiden stelsel geldt een afkoppelingsplicht binnen ongeveer zes maanden.",
@@ -53,14 +53,14 @@ export const citiesA: City[] = [
     rioolbeheerder: "Fluvius",
     bodem: "Zandig Kempens plateau, met de Stiemervallei als lager gelegen afvoeras dwars door de stad.",
     bouwprofiel:
-      "De oude dorpskern werd in 1944 door een verkeerd uitgevoerd bombardement bijna volledig verwoest en naoorlogs heropgebouwd. Daarnaast liggen drie mijncités: Winterslag (mijn 1914-1917), Waterschei met ongeveer duizend woningen gebouwd tussen 1922 en 1929, en Zwartberg (1925). Die woningen zijn intussen zowat honderd jaar oud — en hun privéafvoer even oud.",
+      "De oude dorpskern werd in 1944 door een verkeerd uitgevoerd bombardement bijna volledig verwoest en naoorlogs heropgebouwd. Daarnaast liggen drie mijncités: Winterslag (mijn 1914-1917), Waterschei met ongeveer duizend woningen gebouwd tussen 1922 en 1929, en Zwartberg (1925). Die woningen zijn intussen zowat honderd jaar oud, en hun privéafvoer even oud.",
     landmarks: ["C-mine in Winterslag", "de Molenvijver", "Genk-Zuid en Genk-Noord", "de cité van Waterschei", "Bokrijk"],
     werken:
       "In de wijk Waterschei werd het project Waterrijk Waterschei afgerond: wadi's en ontharding in de Duivenstraat, Mezenstraat en het Talingpark vangen jaarlijks meer dan 6,6 miljoen liter regenwater op, voor ongeveer 1 miljoen euro met steun van Aquafin en Vlaanderen. Uitbreiding naar Winterslag, de tweede en vierde cité en Boxberg staat gepland. Eerder optimaliseerde Aquafin ongeveer 25 van de circa 70 overstorten in het zuiveringsgebied Genk.",
     probleem:
       "In lager gelegen Genkse straten liepen kelders onder omdat de riolering het volume niet aankon; bij hoogwater stroomde water van de Stiemer de collector ín in plaats van omgekeerd. Aquafin plaatste daarom terugslagkleppen tot in de huisaansluitingen.",
     uniek:
-      "Genk is de Limburgse gemeente met een expliciet gedocumenteerd terugslagprobleem — er zijn terugslagkleppen geplaatst tot op huisaansluitingsniveau. Combineer dat met cité-woningen van rond 1925 en u krijgt straten waar verstopping en terugstroom vaak samen optreden.",
+      "Genk is de Limburgse gemeente met een expliciet gedocumenteerd terugslagprobleem: er zijn terugslagkleppen geplaatst tot op huisaansluitingsniveau. Combineer dat met cité-woningen van rond 1925 en u krijgt straten waar verstopping en terugstroom vaak samen optreden.",
     waterhardheid: 17,
     statusTool: { dekking: 93, risicovol: 47, noot: "20 km leiding moet nog geïnspecteerd worden, het hoogste cijfer van Limburg" },
     faq: [
@@ -70,7 +70,7 @@ export const citiesA: City[] = [
       },
       {
         v: "Wat is er bijzonder aan de afvoer in een Genkse cité-woning?",
-        a: "De woningen in Winterslag, Waterschei en Zwartberg dateren grotendeels uit 1914-1929. De originele afvoer bestaat vaak uit gres met veel kortere buisstukken en dus veel voegen — precies de plekken waar wortels binnendringen en waar verzakking optreedt. Bij die woningen is een camera-inspectie bijna altijd zinvol: een spiraal maakt tijdelijk vrij, maar lost een gebroken voeg niet op.",
+        a: "De woningen in Winterslag, Waterschei en Zwartberg dateren grotendeels uit 1914-1929. De originele afvoer bestaat vaak uit gres met veel kortere buisstukken en dus veel voegen: precies de plekken waar wortels binnendringen en waar verzakking optreedt. Bij die woningen is een camera-inspectie bijna altijd zinvol: een spiraal maakt tijdelijk vrij, maar lost een gebroken voeg niet op.",
       },
     ],
     volgorde: ["problemen", "netwerk", "diensten", "werkwijze", "prijzen", "wetgeving", "gebied"],
@@ -87,7 +87,7 @@ export const citiesA: City[] = [
     buurgemeenten: ["Nieuwerkerken", "Alken", "Wellen", "Borgloon", "Heers", "Gingelom", "Landen", "Zoutleeuw", "Geetbets"],
     waterlopen: ["de Cicindria", "de Melsterbeek", "de Molenbeek", "de Herk"],
     rioolbeheerder: "Fluvius",
-    bodem: "Vruchtbaar leem over kalkhoudende ondergrond — en daardoor uitgesproken hard leidingwater.",
+    bodem: "Vruchtbaar leem over kalkhoudende ondergrond, en daardoor uitgesproken hard leidingwater.",
     bouwprofiel:
       "De stad groeide vanaf een abdij uit circa 655, met een omwalling uit 1060-1085 en vijf poorten. Het radiale stratenpatroon vanaf de Grote Markt bleef grotendeels intact, ook na de ontmanteling in 1675. Daarbuiten liggen veertien landelijke fruitdorpen en een 19e-eeuwse stationswijk.",
     landmarks: ["de Grote Markt met de beiaard", "de abdijsite", "het Sint-Agnesbegijnhof in Schurhoven", "de basiliek van Kortenbos", "de stationswijk"],
@@ -96,13 +96,13 @@ export const citiesA: City[] = [
     probleem:
       "Sint-Truiden heeft het hardste leidingwater van Limburg: ongeveer 45 °fH. Dat is meer dan vijf keer zo hard als in Lommel. Kalkaanslag vernauwt hier afvoerleidingen sneller dan elders, zeker in combinatie met vet. Daarnaast staan de Cicindria bij Bevingen en de Melsterbeek als aandachtsgebied in de stroomgebiedbeheerplannen.",
     uniek:
-      "Nergens anders in Limburg werkt kalk zo hard tegen u als in Sint-Truiden. Bij 45 °fH is een afvoer die traag wordt vaak geen klassieke prop maar een vernauwde buis — en dan helpt een spiraal minder dan hogedruk. Bovendien is 97% van het Truiense rioolnet nog nooit structureel beoordeeld.",
+      "Nergens anders in Limburg werkt kalk zo hard tegen u als in Sint-Truiden. Bij 45 °fH is een afvoer die traag wordt vaak geen klassieke prop maar een vernauwde buis, en dan helpt een spiraal minder dan hogedruk. Bovendien is 97% van het Truiense rioolnet nog nooit structureel beoordeeld.",
     waterhardheid: 45,
     statusTool: { dekking: 93, risicovol: 35, noot: "97% van het net is structureel nog onbepaald" },
     faq: [
       {
         v: "Speelt het harde water in Sint-Truiden mee bij verstoppingen?",
-        a: "Ja, en meer dan de meeste mensen denken. Sint-Truiden zit rond 45 °fH — heel hard water. Kalk slaat neer op de binnenwand van afvoerbuizen en vormt samen met vet en zeepresten een laag die de buis stelselmatig vernauwt. Het gevolg is een afvoer die maanden traag wordt in plaats van plots dicht te slibben. In dat geval werkt hogedrukreiniging beter dan een spiraal: die haalt de aanslag weg in plaats van er een gat in te boren.",
+        a: "Ja, en meer dan de meeste mensen denken. Sint-Truiden zit rond 45 °fH: heel hard water. Kalk slaat neer op de binnenwand van afvoerbuizen en vormt samen met vet en zeepresten een laag die de buis stelselmatig vernauwt. Het gevolg is een afvoer die maanden traag wordt in plaats van plots dicht te slibben. In dat geval werkt hogedrukreiniging beter dan een spiraal: die haalt de aanslag weg in plaats van er een gat in te boren.",
       },
       {
         v: "Ik woon in een fruitdorp buiten het centrum. Heb ik een septische put?",
@@ -143,7 +143,7 @@ export const citiesA: City[] = [
       },
       {
         v: "Tongeren en Borgloon zijn gefuseerd. Verandert dat iets voor mijn riolering?",
-        a: "Voor het openbare net niet: Fluvius blijft rioolbeheerder voor Tongeren-Borgloon. Wel loopt de administratie — aanvraag van een rioolaansluiting, meldingen op openbaar domein — nu via het gemeentebestuur Tongeren-Borgloon. Uw eigen verantwoordelijkheid blijft ongewijzigd: alles tot en met het huisaansluitputje is voor u.",
+        a: "Voor het openbare net niet: Fluvius blijft rioolbeheerder voor Tongeren-Borgloon. Wel loopt de administratie: aanvraag van een rioolaansluiting, meldingen op openbaar domein: nu via het gemeentebestuur Tongeren-Borgloon. Uw eigen verantwoordelijkheid blijft ongewijzigd: alles tot en met het huisaansluitputje is voor u.",
       },
     ],
     volgorde: ["netwerk", "problemen", "diensten", "prijzen", "werkwijze", "wetgeving", "gebied"],
@@ -170,13 +170,13 @@ export const citiesA: City[] = [
     probleem:
       "Beringen heeft de grootste mijncité-woningvoorraad van Limburg: betonblokwoningen van voor 1918 naast baksteencités tot 1963, met privéafvoer van dezelfde leeftijd. Tegelijk is de zandbodem gunstig voor infiltratie, waardoor de stad resoluut op scheiding inzet.",
     uniek:
-      "In Beringen bepaalt het bouwjaar van uw cité-woning wat er in de grond ligt. Een woning uit de betonblokperiode heeft een ander afvoerprofiel dan een baksteenwoning uit de jaren vijftig — en dat verschil bepaalt of frezen of hogedruk de juiste techniek is.",
+      "In Beringen bepaalt het bouwjaar van uw cité-woning wat er in de grond ligt. Een woning uit de betonblokperiode heeft een ander afvoerprofiel dan een baksteenwoning uit de jaren vijftig, en dat verschil bepaalt of frezen of hogedruk de juiste techniek is.",
     waterhardheid: 13,
     statusTool: { dekking: 95, risicovol: 44 },
     faq: [
       {
         v: "Wat kan ik verwachten in een mijncité-woning in Beringen?",
-        a: "De cités werden gebouwd tussen 1908 en ongeveer 1963. Bij de oudste woningen liggen vaak nog gresleidingen met korte buisstukken en veel voegen; bij de naoorlogse wijken zoals Steenveld is dat al deels anders. In beide gevallen zit de originele huisaansluiting er meestal nog. Wortelingroei via de voegen en verzakte stukken zijn hier de twee klassiekers — niet vet.",
+        a: "De cités werden gebouwd tussen 1908 en ongeveer 1963. Bij de oudste woningen liggen vaak nog gresleidingen met korte buisstukken en veel voegen; bij de naoorlogse wijken zoals Steenveld is dat al deels anders. In beide gevallen zit de originele huisaansluiting er meestal nog. Wortelingroei via de voegen en verzakte stukken zijn hier de twee klassiekers: niet vet.",
       },
       {
         v: "Beringen zet in op volledige scheiding. Wat betekent dat voor mij?",
@@ -214,7 +214,7 @@ export const citiesA: City[] = [
     faq: [
       {
         v: "Bij wie meld ik in Lommel een probleem met de openbare riolering?",
-        a: "Bij de stad Lommel zelf. Lommel heeft het rioolbeheer niet aan Fluvius overgedragen: aansluitingen, keuringen en de retributies verlopen rechtstreeks via de stadsdiensten. Dat scheelt tijd — u hoeft niet eerst bij Fluvius aan te kloppen om daarna doorverwezen te worden. Alles tot en met uw huisaansluitputje blijft wel uw eigen verantwoordelijkheid.",
+        a: "Bij de stad Lommel zelf. Lommel heeft het rioolbeheer niet aan Fluvius overgedragen: aansluitingen, keuringen en de retributies verlopen rechtstreeks via de stadsdiensten. Dat scheelt tijd: u hoeft niet eerst bij Fluvius aan te kloppen om daarna doorverwezen te worden. Alles tot en met uw huisaansluitputje blijft wel uw eigen verantwoordelijkheid.",
       },
       {
         v: "Waarom slibt mijn afvoer in Lommel dicht als het water hier zo zacht is?",
@@ -279,9 +279,9 @@ export const citiesA: City[] = [
       "Vanaf 1910 werd hier steenkool gewonnen, met cités in Engelse tuinwijkstijl als gevolg. De mijnwijk groeide tot 10.000 inwoners in 1963, met arbeiders uit meer dan twintig landen. De Sint-Barbarakerk in Eisden dateert van 1934-1936.",
     landmarks: ["Maasmechelen Village", "winkelcentrum Pauwengraaf", "de mijnsite van Eisden", "Nationaal Park Hoge Kempen en de Mechelse Heide", "de N78 langs de Grensmaas"],
     probleem:
-      "Maasmechelen heeft de laagste inspectiedekking van de provincie — 91% — en met 48% een van de hoogste aandelen risicovolle leidingen. Het net moet bovendien een hoogteverschil van 45 meter overbruggen.",
+      "Maasmechelen heeft de laagste inspectiedekking van de provincie: 91%, en met 48% een van de hoogste aandelen risicovolle leidingen. Het net moet bovendien een hoogteverschil van 45 meter overbruggen.",
     uniek:
-      "Maasmechelen is de enige Limburgse gemeente waar het rioolnet twee landschappen tegelijk bedient: plateau en Maasvallei, met 45 meter ertussen. Boven speelt afstroomsnelheid, beneden speelt hoge grondwaterstand — twee compleet verschillende oorzaken van hetzelfde symptoom.",
+      "Maasmechelen is de enige Limburgse gemeente waar het rioolnet twee landschappen tegelijk bedient: plateau en Maasvallei, met 45 meter ertussen. Boven speelt afstroomsnelheid, beneden speelt hoge grondwaterstand: twee compleet verschillende oorzaken van hetzelfde symptoom.",
     waterhardheid: 17,
     statusTool: { dekking: 91, risicovol: 48, noot: "laagste inspectiedekking van Limburg" },
     faq: [
@@ -313,7 +313,7 @@ export const citiesA: City[] = [
       "Tot het einde van de Eerste Wereldoorlog bestond het grondgebied bijna uitsluitend uit heide en bos. De steenkoolmijn opende in 1938, waarna de mijncité Meulenberg ontstond en de bevolking explodeerde. De steenkoolwinning liep tot 1965; daarna kwamen de industrieterreinen Europark en Centrum-Zuid op genivelleerde terrils.",
     landmarks: ["kasteel Ter Dolen", "de recreatiedomeinen Kelchterhoef, Hengelhoef en Molenheide", "Museum Ons Mijnverleden", "de industrieterreinen Europark en Centrum-Zuid"],
     probleem:
-      "Houthalen-Helchteren heeft met 53% het hoogste aandeel als risicovol geklasseerde rioolleidingen van Limburg — opvallend voor een gemeente waarvan het bebouwde weefsel grotendeels van na 1938 dateert.",
+      "Houthalen-Helchteren heeft met 53% het hoogste aandeel als risicovol geklasseerde rioolleidingen van Limburg: opvallend voor een gemeente waarvan het bebouwde weefsel grotendeels van na 1938 dateert.",
     uniek:
       "Het bebouwde weefsel hier is jong: voor 1918 was dit vrijwel alleen heide en bos. Toch staat 53% van de rioolleidingen als risicovol geklasseerd, het hoogste cijfer van de provincie. Jong betekent in Houthalen-Helchteren dus niet probleemloos.",
     waterhardheid: 15,
@@ -321,7 +321,7 @@ export const citiesA: City[] = [
     faq: [
       {
         v: "Mijn woning in Meulenberg is niet oud. Waarom heb ik toch rioolproblemen?",
-        a: "De cité Meulenberg ontstond vanaf 1938, dus de woningen zijn intussen ruim tachtig jaar oud — jong voor Limburgse begrippen, maar oud genoeg voor gresleidingen met voegen. Bovendien staat 53% van de rioolleidingen in Houthalen-Helchteren als risicovol geklasseerd, het hoogste aandeel van de provincie. Ouderdom van het huis en staat van de leiding lopen hier niet gelijk.",
+        a: "De cité Meulenberg ontstond vanaf 1938, dus de woningen zijn intussen ruim tachtig jaar oud: jong voor Limburgse begrippen, maar oud genoeg voor gresleidingen met voegen. Bovendien staat 53% van de rioolleidingen in Houthalen-Helchteren als risicovol geklasseerd, het hoogste aandeel van de provincie. Ouderdom van het huis en staat van de leiding lopen hier niet gelijk.",
       },
       {
         v: "Wat is bijzonder aan afvoer op de industrieterreinen hier?",

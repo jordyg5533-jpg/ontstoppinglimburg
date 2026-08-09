@@ -6,6 +6,7 @@ import { hoofdSteden } from "@/lib/cities";
 import { site } from "@/lib/site";
 import { Breadcrumbs, CallButton, FaqList, H2, Jsonld, PriceTable, Section } from "@/components/ui";
 import { LeadForm } from "@/components/LeadForm";
+import { OfferteKnop } from "@/components/Offerte";
 
 export function generateStaticParams() {
   return services.map((s) => ({ dienst: s.slug }));
@@ -82,7 +83,7 @@ export default async function DienstPagina({ params }: { params: Promise<{ diens
         />
         <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr]">
           <div className="prose-nl max-w-none">
-            <h1 className="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-ink-900 sm:text-4xl">
+            <h1 className="mb-4 text-[1.6rem] font-bold leading-[1.18] tracking-tight text-ink-900 sm:text-[1.95rem]">
               {s.naam} in Limburg
             </h1>
             <p className="mb-4 text-lg leading-relaxed text-ink-800">
@@ -118,7 +119,7 @@ export default async function DienstPagina({ params }: { params: Promise<{ diens
                 <H2>Wat het kost</H2>
                 <PriceTable
                   kop={["Wat", "Richtprijs"]}
-                  rijen={s.prijs.map((p) => [p.noot ? `${p.wat} — ${p.noot}` : p.wat, p.range])}
+                  rijen={s.prijs.map((p) => [p.noot ? `${p.wat}: ${p.noot}` : p.wat, p.range])}
                   bijschrift="Richtprijzen op basis van gepubliceerde Belgische marktprijzen, stand 2026. Geen vaste tarieven."
                 />
               </>
@@ -128,7 +129,7 @@ export default async function DienstPagina({ params }: { params: Promise<{ diens
 
             <H2>In welke gemeente?</H2>
             <p>
-              Wij komen voor {s.naam.toLowerCase()} in heel de provincie. De situatie verschilt wel per gemeente — bodem,
+              Wij komen voor {s.naam.toLowerCase()} in heel de provincie. De situatie verschilt wel per gemeente: bodem,
               waterhardheid en rioolbeheerder lopen sterk uiteen.
             </p>
             <div className="flex flex-wrap gap-x-3 gap-y-1.5 text-[15px]">
@@ -151,7 +152,10 @@ export default async function DienstPagina({ params }: { params: Promise<{ diens
                 U krijgt aan de telefoon een realistische richtprijs en een eerlijk antwoord op de vraag of het dringend
                 is.
               </p>
-              <CallButton klein />
+              <div className="flex flex-wrap gap-2">
+                <CallButton klein />
+                <OfferteKnop klein />
+              </div>
             </div>
           </aside>
         </div>

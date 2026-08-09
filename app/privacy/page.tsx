@@ -20,7 +20,7 @@ export default function PrivacyPagina() {
         ]}
       />
       <div className="prose-nl max-w-3xl">
-        <h1 className="mb-4 text-3xl font-extrabold tracking-tight text-ink-900 sm:text-4xl">Privacyverklaring</h1>
+        <h1 className="mb-4 text-[1.6rem] font-bold leading-[1.18] tracking-tight text-ink-900 sm:text-[1.95rem]">Privacyverklaring</h1>
         <p className="text-lg leading-relaxed text-ink-800">
           Kort samengevat: wij verzamelen alleen wat nodig is om u terug te bellen met een prijsindicatie, we
           verkopen niets door en u kunt op elk moment vragen om uw gegevens te wissen.
@@ -72,7 +72,7 @@ export default function PrivacyPagina() {
         </ul>
         <p>
           Een verzoek indienen kan via het{" "}
-          <Link href="/offerte">aanvraagformulier</Link> — vermeld kort wat u wenst, dan handelen wij het af.
+          <Link href="/offerte">aanvraagformulier</Link>: vermeld kort wat u wenst, dan handelen wij het af.
           Bent u niet tevreden over de afhandeling, dan kunt u klacht indienen bij de Belgische
           Gegevensbeschermingsautoriteit.
         </p>
@@ -90,7 +90,7 @@ export default function PrivacyPagina() {
           2026.
         </p>
         <p className="text-sm text-ink-700">
-          {site.naam} — actief in heel de provincie Limburg. Wij hebben geen baliewerking; contact verloopt via
+          {site.naam}: actief in heel de provincie Limburg. Wij hebben geen baliewerking; contact verloopt via
           het formulier of telefonisch.
         </p>
       </div>

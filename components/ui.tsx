@@ -14,19 +14,6 @@ export function CallButton({ klein = false }: { klein?: boolean }) {
   );
 }
 
-export function OfferteButton({ klein = false }: { klein?: boolean }) {
-  return (
-    <Link
-      href="/offerte"
-      className={`inline-flex items-center justify-center gap-2 rounded-lg border-2 border-water-500 bg-white font-semibold text-water-600 transition hover:bg-water-50 ${
-        klein ? "px-4 py-2 text-sm" : "px-6 py-3.5 text-base"
-      }`}
-    >
-      Gratis prijsindicatie
-    </Link>
-  );
-}
-
 export function Section({
   children,
   className = "",
@@ -110,7 +97,7 @@ export function Jsonld({ data }: { data: object | object[] }) {
   return (
     <script
       type="application/ld+json"
-      // Statische, door onszelf opgebouwde data — geen gebruikersinvoer.
+      // Statische, door onszelf opgebouwde data: geen gebruikersinvoer.
       dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
     />
   );

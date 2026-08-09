@@ -5,6 +5,7 @@ import { articles, getArticle } from "@/lib/articles";
 import { site } from "@/lib/site";
 import { Breadcrumbs, CallButton, FaqList, Jsonld, PriceTable, Section } from "@/components/ui";
 import { LeadForm } from "@/components/LeadForm";
+import { OfferteKnop } from "@/components/Offerte";
 import { RooilijnDiagram } from "@/components/Diagram";
 
 export function generateStaticParams() {
@@ -73,7 +74,7 @@ export default async function ArtikelPagina({ params }: { params: Promise<{ arti
         />
         <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr]">
           <article className="prose-nl max-w-none">
-            <h1 className="mb-3 text-3xl font-extrabold leading-tight tracking-tight text-ink-900 sm:text-4xl">{a.h1}</h1>
+            <h1 className="mb-3 text-[1.6rem] font-bold leading-[1.18] tracking-tight text-ink-900 sm:text-[1.95rem]">{a.h1}</h1>
             <p className="mb-6 text-xs uppercase tracking-wider text-ink-700">Bijgewerkt {a.bijgewerkt}</p>
             <p className="text-lg leading-relaxed text-ink-800">
               Deze gids is geschreven door{" "}
@@ -155,7 +156,10 @@ export default async function ArtikelPagina({ params }: { params: Promise<{ arti
               <p className="mb-4 text-sm leading-relaxed text-ink-800">
                 Bel gerust voor een richtprijs. U hoort meteen of het dringend is of tot morgen kan wachten.
               </p>
-              <CallButton klein />
+              <div className="flex flex-wrap gap-2">
+                <CallButton klein />
+                <OfferteKnop klein />
+              </div>
             </div>
           </aside>
         </div>

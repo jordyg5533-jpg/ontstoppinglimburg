@@ -1,5 +1,5 @@
 /**
- * Eigen diagram — geen stockbeeld, geen AI-plaatje.
+ * Eigen diagram: geen stockbeeld, geen AI-plaatje.
  * Toont waar de verantwoordelijkheid van de bewoner ophoudt: tot en met het
  * huisaansluitputje. Dat is het scherpste citeerbare feit van de hele site,
  * dus het verdient een beeld dat mensen begrijpen zonder de tekst te lezen.
@@ -82,7 +82,7 @@ export function RooilijnDiagram({ beheerder = "de rioolbeheerder" }: { beheerder
         </text>
       </svg>
       <figcaption className="border-t border-water-100 px-4 py-3 text-sm leading-relaxed text-ink-800">
-        Uw verantwoordelijkheid loopt tot en met het huisaansluitputje aan de rooilijn — ook wanneer dat
+        Uw verantwoordelijkheid loopt tot en met het huisaansluitputje aan de rooilijn, ook wanneer dat
         putje op de stoep ligt en eigendom is van de netbeheerder. Zo staat het in het technisch reglement
         van Fluvius (versie juni 2025).
       </figcaption>

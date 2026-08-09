@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 import { Breadcrumbs, H2, Jsonld, Section } from "@/components/ui";
 
 export const metadata: Metadata = {
-  title: "Ontstopping in heel Limburg — alle gemeenten | Limburg Ontstoppingsdienst",
+  title: "Ontstopping in heel Limburg: alle gemeenten | Limburg Ontstoppingsdienst",
   description:
     "Overzicht van alle Limburgse gemeenten en kernen waar wij ontstoppen, met per gemeente de rioolbeheerder, de streek en de lokale situatie.",
   alternates: { canonical: "/gemeenten" },
@@ -42,7 +42,7 @@ export default function GemeentenOverzicht() {
             { naam: "Gemeenten", href: "/gemeenten" },
           ]}
         />
-        <h1 className="mb-4 text-3xl font-extrabold tracking-tight text-ink-900 sm:text-4xl">
+        <h1 className="mb-4 text-[1.6rem] font-bold leading-[1.18] tracking-tight text-ink-900 sm:text-[1.95rem]">
           Ontstopping in heel Limburg: alle gemeenten en kernen
         </h1>
         <p className="mb-3 max-w-3xl leading-relaxed text-ink-800">

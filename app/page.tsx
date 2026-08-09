@@ -7,6 +7,8 @@ import { articles } from "@/lib/articles";
 import { CallButton, FaqList, H2, Jsonld, PriceTable, Section } from "@/components/ui";
 import { LeadForm } from "@/components/LeadForm";
 import { RooilijnDiagram } from "@/components/Diagram";
+import { HeroAchtergrond, HeroPunten } from "@/components/Hero";
+import { OfferteKnop } from "@/components/Offerte";
 
 export const metadata: Metadata = {
   title: "Limburg Ontstoppingsdienst 24/7 | Riool & Afvoer Ontstoppen in Limburg",
@@ -22,7 +24,7 @@ const faq = [
   },
   {
     v: "Hoe snel kunnen jullie ter plaatse zijn?",
-    a: "Bij een echt spoedgeval — water dat uw woning binnenkomt of uw enige toilet dat onbruikbaar is — streven we naar dezelfde dag. Een harde belofte doen we aan de telefoon en niet op een webpagina, want dat hangt af van het uur, de drukte en waar u woont. U hoort dus meteen bij het eerste contact wanneer we er kunnen zijn. Is het niet dringend, dan bespaart u vaak honderd euro of meer door tot de volgende ochtend te wachten, en dat zeggen we er eerlijk bij.",
+    a: "Bij een echt spoedgeval: water dat uw woning binnenkomt of uw enige toilet dat onbruikbaar is: streven we naar dezelfde dag. Een harde belofte doen we aan de telefoon en niet op een webpagina, want dat hangt af van het uur, de drukte en waar u woont. U hoort dus meteen bij het eerste contact wanneer we er kunnen zijn. Is het niet dringend, dan bespaart u vaak honderd euro of meer door tot de volgende ochtend te wachten, en dat zeggen we er eerlijk bij.",
   },
   {
     v: "Wie betaalt de verstopping: ik of de rioolbeheerder?",
@@ -42,7 +44,7 @@ const faq = [
   },
   {
     v: "Wat doen jullie als de leiding beschadigd blijkt?",
-    a: "Dan krijgt u de camerabeelden te zien en twee opties met een prijsindicatie per meter. Relining — een met hars gedrenkte kous die in de bestaande buis uithardt — ligt doorgaans 30 tot 40% lager dan volledige vervanging en vraagt ongeveer één werkdag in plaats van drie tot vijf. Vervangen met graafwerk is soms onvermijdelijk, bijvoorbeeld bij een volledig ingezakt stuk.",
+    a: "Dan krijgt u de camerabeelden te zien en twee opties met een prijsindicatie per meter. Relining: een met hars gedrenkte kous die in de bestaande buis uithardt: ligt doorgaans 30 tot 40% lager dan volledige vervanging en vraagt ongeveer één werkdag in plaats van drie tot vijf. Vervangen met graafwerk is soms onvermijdelijk, bijvoorbeeld bij een volledig ingezakt stuk.",
   },
 ];
 
@@ -79,19 +81,20 @@ export default function Home() {
       <Jsonld data={[faqSchema, serviceSchema]} />
 
       {/* HERO */}
-      <div className="bg-gradient-to-b from-ink-950 to-ink-800 text-white">
-        <div className="mx-auto grid w-full max-w-6xl gap-10 px-5 py-14 sm:px-6 lg:grid-cols-[1.15fr_1fr] lg:py-20">
+      <div className="relative isolate overflow-hidden text-white">
+        <HeroAchtergrond />
+        <div className="relative mx-auto grid w-full max-w-6xl gap-10 px-5 py-14 sm:px-6 lg:grid-cols-[1.15fr_1fr] lg:py-20">
           <div>
             <p className="mb-3 inline-block rounded-full bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-water-400">
               Alle 38 Limburgse gemeenten · dag en nacht
             </p>
-            <h1 className="text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl lg:text-[2.75rem]">
+            <h1 className="text-[1.6rem] font-bold leading-[1.16] tracking-tight sm:text-[1.9rem] lg:text-[2.05rem]">
               Ontstoppingsdienst in Limburg: snel ter plaatse, met camera-controle en een richtprijs vooraf
             </h1>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-white/80">
               {site.naam} is een ontstoppingsdienst voor heel de provincie Limburg. Wij maken verstopte riolering,
               wc&apos;s en afvoeren vrij, ledigen septische en regenwaterputten en sporen met camera op waaróm het
-              misging — zodat u niet elk jaar opnieuw voor hetzelfde probleem betaalt.
+              misging, zodat u niet elk jaar opnieuw voor hetzelfde probleem betaalt.
             </p>
             <p className="mt-3 max-w-xl leading-relaxed text-white/70">
               U hoort vooraf welke richtprijs geldt, welk btw-tarief van toepassing is en of het probleem aan uw kant of
@@ -99,19 +102,16 @@ export default function Home() {
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <CallButton />
-              <Link
-                href="#prijsindicatie"
-                className="inline-flex items-center justify-center rounded-lg border-2 border-white/30 px-6 py-3.5 font-semibold text-white transition hover:bg-white/10"
-              >
-                Gratis prijsindicatie
-              </Link>
+<OfferteKnop variant="wit" />
             </div>
-            <ul className="mt-7 grid gap-2 text-sm text-white/75 sm:grid-cols-2">
-              <li>✓ Richtprijs en btw-tarief vooraf duidelijk</li>
-              <li>✓ Camera-controle na het vrijmaken</li>
-              <li>✓ Spiraal, frees of hogedruk — naar oorzaak</li>
-              <li>✓ Slib afgevoerd naar erkende verwerker</li>
-            </ul>
+            <HeroPunten
+              punten={[
+                "Richtprijs en btw-tarief vooraf duidelijk",
+                "Camera-controle na het vrijmaken",
+                "Spiraal, frees of hogedruk, naar oorzaak",
+                "Slib afgevoerd naar erkende verwerker",
+              ]}
+            />
           </div>
           <div id="prijsindicatie" className="lg:pt-4">
             <LeadForm />
@@ -175,7 +175,7 @@ export default function Home() {
         <H2>Tot waar is het uw kosten?</H2>
         <p className="mb-2 max-w-3xl leading-relaxed text-ink-800">
           Hier gaat in de praktijk de meeste discussie over. De grens ligt niet bij de stoeprand maar bij het
-          huisaansluitputje — en dat putje is eigendom van de netbeheerder terwijl het onderhoud tóch bij u
+          huisaansluitputje, en dat putje is eigendom van de netbeheerder terwijl het onderhoud tóch bij u
           ligt. Wij controleren dat putje standaard voor we beginnen, zodat u weet aan welke kant het zit.
         </p>
         <RooilijnDiagram />
@@ -194,7 +194,7 @@ export default function Home() {
           {[
             {
               t: "1. Eerst vaststellen aan welke kant het zit",
-              d: "Wij openen het huisaansluitputje aan de rooilijn. Staat dat vol terwijl het niet regent, dan zit de verstopping stroomafwaarts. Is het leeg, dan zit ze tussen uw woning en dat putje — en dan is het voor uw rekening.",
+              d: "Wij openen het huisaansluitputje aan de rooilijn. Staat dat vol terwijl het niet regent, dan zit de verstopping stroomafwaarts. Is het leeg, dan zit ze tussen uw woning en dat putje, en dan is het voor uw rekening.",
             },
             {
               t: "2. De techniek kiezen die past",
@@ -206,7 +206,7 @@ export default function Home() {
             },
             {
               t: "4. Eerlijk zeggen wat er nu nodig is",
-              d: "Is de buis in orde, dan bent u klaar. Is ze beschadigd, dan krijgt u de beelden te zien plus een keuze tussen relining en vervangen, met een prijs per meter — geen paniekverhaal.",
+              d: "Is de buis in orde, dan bent u klaar. Is ze beschadigd, dan krijgt u de beelden te zien plus een keuze tussen relining en vervangen, met een prijs per meter: geen paniekverhaal.",
             },
           ].map((s) => (
             <li key={s.t} className="rounded-xl border border-water-100 bg-white p-5">
@@ -227,7 +227,7 @@ export default function Home() {
             <div>
               <p className="mb-2 font-bold text-water-400">Waterhardheid verschilt met factor vijf</p>
               <p className="text-[15px] leading-relaxed text-white/75">
-                In Sint-Truiden ligt de waterhardheid rond 45 °fH en in Tongeren rond 42 °fH — heel hard water. In Lommel
+                In Sint-Truiden ligt de waterhardheid rond 45 °fH en in Tongeren rond 42 °fH: heel hard water. In Lommel
                 is dat ongeveer 8 °fH. Kalk vernauwt in Haspengouw de buiswand stelselmatig; in de Kempen speelt dat
                 nauwelijks. Dezelfde klacht, een andere oorzaak en dus een andere techniek.
               </p>
@@ -294,7 +294,7 @@ export default function Home() {
           <H2>Kennisbank: eerst begrijpen, dan beslissen</H2>
           <p className="mb-5 max-w-3xl leading-relaxed text-ink-800">
             Veel afvoerproblemen kosten geld doordat mensen de verkeerde vraag stellen. Deze gidsen beantwoorden de
-            vragen die er wél toe doen — met concrete cijfers en de bron erbij.
+            vragen die er wél toe doen: met concrete cijfers en de bron erbij.
           </p>
           <div className="grid gap-4 sm:grid-cols-2">
             {articles.map((a) => (
@@ -320,10 +320,11 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-white sm:text-3xl">Verstopping in Limburg? Bel gerust.</h2>
           <p className="mx-auto mt-3 max-w-xl leading-relaxed text-white/75">
             U krijgt aan de telefoon meteen een realistische richtprijs en een eerlijk antwoord op de vraag of het
-            dringend is. Kan het wachten tot morgen, dan zeggen we dat — dat scheelt u de nachttoeslag.
+            dringend is. Kan het wachten tot morgen, dan zeggen we dat: dat scheelt u de nachttoeslag.
           </p>
-          <div className="mt-6 flex justify-center">
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
             <CallButton />
+            <OfferteKnop variant="wit" />
           </div>
         </Section>
       </div>

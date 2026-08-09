@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 export default function BedanktPagina() {
   return (
     <Section className="text-center">
-      <h1 className="mb-4 text-3xl font-extrabold tracking-tight text-ink-900 sm:text-4xl">Bedankt, uw aanvraag is binnen</h1>
+      <h1 className="mb-4 text-[1.6rem] font-bold leading-[1.18] tracking-tight text-ink-900 sm:text-[1.95rem]">Bedankt, uw aanvraag is binnen</h1>
       <p className="mx-auto mb-8 max-w-xl text-lg leading-relaxed text-ink-800">
         Wij nemen zo snel mogelijk contact met u op met een concrete richtprijs. Is het dringend en loopt er water uw
-        woning binnen? Bel dan gerust meteen — dan gaan we niet wachten op een mailtje.
+        woning binnen? Bel dan gerust meteen: dan gaan we niet wachten op een mailtje.
       </p>
       <div className="flex flex-wrap justify-center gap-3">
         <CallButton />

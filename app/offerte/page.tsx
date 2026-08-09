@@ -20,12 +20,12 @@ export default function OffertePagina() {
       />
       <div className="grid gap-10 lg:grid-cols-[1fr_1fr]">
         <div className="prose-nl max-w-none">
-          <h1 className="mb-4 text-3xl font-extrabold tracking-tight text-ink-900 sm:text-4xl">
+          <h1 className="mb-4 text-[1.6rem] font-bold leading-[1.18] tracking-tight text-ink-900 sm:text-[1.95rem]">
             Gratis prijsindicatie voor uw situatie
           </h1>
           <p className="text-lg leading-relaxed text-ink-800">
             Laat uw naam en telefoonnummer achter en beschrijf kort wat er aan de hand is. Wij bellen u terug met een
-            concrete richtprijs — gratis en vrijblijvend, zonder verkooppraatjes.
+            concrete richtprijs: gratis en vrijblijvend, zonder verkooppraatjes.
           </p>
           <h2>Wat helpt ons om u sneller een juiste prijs te geven</h2>
           <ul>

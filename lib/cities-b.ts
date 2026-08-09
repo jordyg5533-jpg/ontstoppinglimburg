@@ -1,6 +1,6 @@
 import type { City } from "./city-types";
 
-/** Groep B — Noord-Limburg, de Kempen en het Maasland. */
+/** Groep B: Noord-Limburg, de Kempen en het Maasland. */
 export const citiesB: City[] = [
   {
     slug: "pelt",
@@ -20,7 +20,7 @@ export const citiesB: City[] = [
     werken:
       "Er lopen dossiers voor de Kaulillerweg en zijstraten, Lommelsakker, Grote Heide, de Tussenstraat en Broeseinderdijk. Op het Marktplein kwam een infiltratievoorziening, het Kerkplein werd blauw-groen heringericht en Nolimpark werd afgekoppeld. Bij de gemeentewerf ligt een collectieve hemelwateropvangput van ongeveer 1.000 kubieke meter.",
     probleem:
-      "Het centrum van Pelt staat in het Wateruitvoeringsprogramma als kritieke overstromingsgevoelige zone langs de Dommel, met vernauwingen in de kern. In buitengebieden zoals Kolisbos werkt men met drukriolering — een stelseltype dat gevoeliger is voor verstopping en foutieve lozingen dan klassieke zwaartekrachtriolering.",
+      "Het centrum van Pelt staat in het Wateruitvoeringsprogramma als kritieke overstromingsgevoelige zone langs de Dommel, met vernauwingen in de kern. In buitengebieden zoals Kolisbos werkt men met drukriolering: een stelseltype dat gevoeliger is voor verstopping en foutieve lozingen dan klassieke zwaartekrachtriolering.",
     uniek:
       "Pelt combineert een dichte lintkern en zware industrie op zandgrond met buitengebieden op drukriolering. Zit u aan drukriolering, dan is een verstopping bij u een ander verhaal dan bij een buur die gewoon op zwaartekracht loost.",
     faq: [
@@ -56,7 +56,7 @@ export const citiesB: City[] = [
     faq: [
       {
         v: "Waarom heeft Neeroeteren meer wateroverlast dan Maaseik-centrum?",
-        a: "Maaseik-centrum ligt op een hoger Maasterras — dat bood historisch al bescherming tegen de Maas. Neeroeteren ligt lager, aan de Bosbeek en de Witbeek, en staat officieel aangeduid als hoogrisico-overstromingszone, met knelpunten bij de oude watermolens waar het water opstuwt. In Neeroeteren speelt riool- en beekwater dus letterlijk door elkaar; in het centrum van Maaseik is een verstopping vrijwel altijd een zuiver rioolprobleem.",
+        a: "Maaseik-centrum ligt op een hoger Maasterras: dat bood historisch al bescherming tegen de Maas. Neeroeteren ligt lager, aan de Bosbeek en de Witbeek, en staat officieel aangeduid als hoogrisico-overstromingszone, met knelpunten bij de oude watermolens waar het water opstuwt. In Neeroeteren speelt riool- en beekwater dus letterlijk door elkaar; in het centrum van Maaseik is een verstopping vrijwel altijd een zuiver rioolprobleem.",
       },
     ],
     volgorde: ["problemen", "netwerk", "diensten", "prijzen", "wetgeving", "werkwijze", "gebied"],
@@ -83,11 +83,11 @@ export const citiesB: City[] = [
     probleem:
       "De Vrietselbeek kreeg aanhoudende geur- en overstortproblemen doordat rioolwater via het bestaande gemengde stelsel in de beek terechtkomt. De provincie verlengde de beek om het debiet te verhogen; op termijn moet een gescheiden stelsel het rioolwater eruit houden.",
     uniek:
-      "Dilsen-Stokkem heeft binnen één gemeente 55 meter hoogteverschil. Hemelwater stroomt snel af naar een laag, nat oostelijk deel — en het overstortprobleem op de Vrietselbeek is daar het letterlijk ruikbare gevolg van.",
+      "Dilsen-Stokkem heeft binnen één gemeente 55 meter hoogteverschil. Hemelwater stroomt snel af naar een laag, nat oostelijk deel, en het overstortprobleem op de Vrietselbeek is daar het letterlijk ruikbare gevolg van.",
     faq: [
       {
         v: "Ik woon laag in de Maasvallei. Waar moet ik op letten?",
-        a: "Bij een hoge grondwaterstand dringt water via defecte voegen uw leiding binnen — dat heet infiltratie. Uw afvoer loopt dan traag zonder dat er een prop zit, en na een ontstopping komt de klacht snel terug. Een camera-inspectie toont of het om instromend grondwater gaat. Is dat zo, dan is relining of plaatselijk herstel de oplossing, niet een jaarlijkse ontstopping.",
+        a: "Bij een hoge grondwaterstand dringt water via defecte voegen uw leiding binnen: dat heet infiltratie. Uw afvoer loopt dan traag zonder dat er een prop zit, en na een ontstopping komt de klacht snel terug. Een camera-inspectie toont of het om instromend grondwater gaat. Is dat zo, dan is relining of plaatselijk herstel de oplossing, niet een jaarlijkse ontstopping.",
       },
     ],
     volgorde: ["problemen", "diensten", "netwerk", "werkwijze", "prijzen", "wetgeving", "gebied"],
@@ -113,7 +113,7 @@ export const citiesB: City[] = [
     probleem:
       "In juli 2024 liep Oud-Rekem zwaar onder water langs de Ziepbeek. De gemeente wees onder meer op riolering die vervuild water in de beek loost en op onvoldoende doorstromingscapaciteit. Aquafin zette drie mobiele pompen met een gezamenlijke capaciteit van 1.240 kubieke meter per uur in.",
     uniek:
-      "Lanaken zit ingeklemd tussen drie kanalen en een steile plateaurand. Beken als de Ziepbeek en de Kikbeek voeren in korte tijd veel water af naar laaggelegen Oud-Rekem — bij de overstroming van 2024 wees de gemeente uitdrukkelijk mee naar de riolering.",
+      "Lanaken zit ingeklemd tussen drie kanalen en een steile plateaurand. Beken als de Ziepbeek en de Kikbeek voeren in korte tijd veel water af naar laaggelegen Oud-Rekem: bij de overstroming van 2024 wees de gemeente uitdrukkelijk mee naar de riolering.",
     faq: [
       {
         v: "Wat kan ik doen tegen terugstroom bij hevige regen in Lanaken?",
@@ -142,9 +142,9 @@ export const citiesB: City[] = [
     werken:
       "Er loopt een afkoppelingsproject voor de Breeërstadsbeek aan de Grauwe Torenwal, een groot centrumdossier rond de Markt en de Nieuwstadstraat, een project voor Tongerlo Centrum en de Kuilenstraat, plus de doortocht van Opitter.",
     probleem:
-      "De historische stadsgracht en de Breeërstadsbeek zijn nog altijd fysiek verweven met het rioolstelsel — vandaar dat er meerdere afkoppelingsdossiers precies op de wallen lopen. Daarnaast wordt gewerkt aan de optimalisatie van overstorten.",
+      "De historische stadsgracht en de Breeërstadsbeek zijn nog altijd fysiek verweven met het rioolstelsel: vandaar dat er meerdere afkoppelingsdossiers precies op de wallen lopen. Daarnaast wordt gewerkt aan de optimalisatie van overstorten.",
     uniek:
-      "In Bree ligt het rioolnet deels bovenop een middeleeuwse grachtenstructuur die nooit helemaal verdwenen is. Boven op de steilrand is de bodem kurkdroog grind, in de beekdalen zandleem en klei — twee heel verschillende ondergronden binnen één gemeente.",
+      "In Bree ligt het rioolnet deels bovenop een middeleeuwse grachtenstructuur die nooit helemaal verdwenen is. Boven op de steilrand is de bodem kurkdroog grind, in de beekdalen zandleem en klei: twee heel verschillende ondergronden binnen één gemeente.",
     faq: [
       {
         v: "Ik woon in de Breese binnenstad. Waarom loopt de leiding daar zo grillig?",
@@ -174,7 +174,7 @@ export const citiesB: City[] = [
     probleem:
       "Het Wateruitvoeringsprogramma noemt de overstortwerking op de Peerderloop en verdunning in het zuiveringsstelsel als knelpunten. Verdunning betekent dat te veel regenwater in de vuilwaterleiding komt, waardoor de zuivering minder efficiënt werkt.",
     uniek:
-      "Peer ligt op de waterscheiding waar de Dommel ontspringt, en het middeleeuwse vesttracé werkt nog altijd als ring én als waterstructuur. De grote knelpunten hier zijn overstorten en verdunning — typisch voor een stad met veel verhard industrieterrein op zandgrond.",
+      "Peer ligt op de waterscheiding waar de Dommel ontspringt, en het middeleeuwse vesttracé werkt nog altijd als ring én als waterstructuur. De grote knelpunten hier zijn overstorten en verdunning: typisch voor een stad met veel verhard industrieterrein op zandgrond.",
     faq: [
       {
         v: "Wat is verdunning en waarom is dat mijn probleem?",
@@ -195,7 +195,7 @@ export const citiesB: City[] = [
     buurgemeenten: ["Pelt", "Bocholt"],
     waterlopen: ["de Warmbeek", "de Beverbeek", "de Lookbeek", "de Walbeek", "de Erkbeek"],
     rioolbeheerder: "Fluvius (rioolbeheercentrum Noord)",
-    bodem: "Overgang van een eerder moerassig zuiden naar drogere noordelijke zandgronden — toponiemen als Beek, Broek en Dijk verwijzen naar dat natte karakter.",
+    bodem: "Overgang van een eerder moerassig zuiden naar drogere noordelijke zandgronden: toponiemen als Beek, Broek en Dijk verwijzen naar dat natte karakter.",
     bouwprofiel:
       "De historische kern van Hamont bewaart het middeleeuwse stratenpatroon rond de langgerekte markt. De eerste omwalling liep ter hoogte van de huidige Hoogstraat, een tweede muur volgde later; de Achelpoort en Budelpoort werden rond 1856-1861 gesloopt. Middeleeuwse gehuchten zijn opgegaan in het moderne weefsel.",
     landmarks: ["de Trappistenabdij van Achel", "de langgerekte markt in Hamont", "Achel Statie", "de hermeanderde Warmbeekvallei"],
@@ -234,7 +234,7 @@ export const citiesB: City[] = [
     probleem:
       "De Slagmolen op de Bosbeek staat in het Wateruitvoeringsprogramma als kritieke locatie voor wateroverlast. Verder is dit een uitgestrekt, landelijk grondgebied met veel lintbebouwing en verspreide hoeves op zandgrond, wat lange private huisaansluitingen oplevert.",
     uniek:
-      "Oudsbergen is dun bebouwd en uitgestrekt. Dat betekent lange private leidingen tussen woning en straat — soms tientallen meters. Precies op die lange stukken ontstaan de meeste verzakkingen en wortelingroeiingen, en daar rekent u zelf voor.",
+      "Oudsbergen is dun bebouwd en uitgestrekt. Dat betekent lange private leidingen tussen woning en straat: soms tientallen meters. Precies op die lange stukken ontstaan de meeste verzakkingen en wortelingroeiingen, en daar rekent u zelf voor.",
     faq: [
       {
         v: "Mijn huisaansluiting is heel lang. Wie betaalt bij een probleem?",
@@ -295,11 +295,11 @@ export const citiesB: City[] = [
     probleem:
       "Het overstort aan de Lillerbaan op de Warmbeek is een genoemd knelpunt. De dorpskernen liggen precies op de overgang van droge heiderug naar natte beekvallei, wat zorgt voor sterk wisselende omstandigheden over korte afstand.",
     uniek:
-      "In Bocholt ligt uw woning waarschijnlijk op de helling tussen droge heiderug en natte beekvallei. Boven op de helling is zandinspoeling het probleem, onderaan is het grondwater en terugstuwing — soms binnen dezelfde straat.",
+      "In Bocholt ligt uw woning waarschijnlijk op de helling tussen droge heiderug en natte beekvallei. Boven op de helling is zandinspoeling het probleem, onderaan is het grondwater en terugstuwing: soms binnen dezelfde straat.",
     faq: [
       {
         v: "Waarom heeft mijn buur wel last en ik niet, in dezelfde straat?",
-        a: "In Bocholt liggen de woonkernen op de helling tussen hoge heidegronden en lage valleigronden. Enkele meters hoogteverschil bepalen of uw leiding boven of onder de grondwaterstand ligt en of u het laagste punt van het stelsel bent. Bij terugstuwing loopt altijd het laagste aangesloten punt als eerste over — vaak een kelderafvoer of een garageput bij de buur en niet bij u.",
+        a: "In Bocholt liggen de woonkernen op de helling tussen hoge heidegronden en lage valleigronden. Enkele meters hoogteverschil bepalen of uw leiding boven of onder de grondwaterstand ligt en of u het laagste punt van het stelsel bent. Bij terugstuwing loopt altijd het laagste aangesloten punt als eerste over: vaak een kelderafvoer of een garageput bij de buur en niet bij u.",
       },
     ],
     volgorde: ["netwerk", "problemen", "diensten", "prijzen", "gebied", "werkwijze", "wetgeving"],
@@ -351,7 +351,7 @@ export const citiesB: City[] = [
       "Leopoldsburg is geen gegroeid dorp maar een 19e-eeuwse garnizoensnederzetting bij het Kamp van Beverlo. Dat verklaart de rechtlijnige laanstructuur met de Koningin Louisa-Marialaan, de Vlaanderenlaan en de Delannoylaan. Heppen ontstond wel organisch, op een driehoekige wegsplitsing.",
     landmarks: ["het Kamp van Beverlo", "het Kanaal van Beverlo", "het driehoekige dorpsplein van Heppen", "de garnizoenslanen van het centrum"],
     werken:
-      "De vernieuwing verloopt per laan: de Koningin Louisa-Marialaan, de Vlaanderenlaan en Delannoylaan, en een groot dossier rond de Kanaalstraat, Tunnelstraat, Olmenweg en Leukenstraat van ruim 3 miljoen euro — het zwaarste rioleringsdossier van Noord-Limburg.",
+      "De vernieuwing verloopt per laan: de Koningin Louisa-Marialaan, de Vlaanderenlaan en Delannoylaan, en een groot dossier rond de Kanaalstraat, Tunnelstraat, Olmenweg en Leukenstraat van ruim 3 miljoen euro, het zwaarste rioleringsdossier van Noord-Limburg.",
     probleem:
       "Het aangrenzende Zwarte Beek-veengebied moet tegen 2027 een goede ecologische toestand bereiken, waardoor waterkwaliteit hier zwaarder weegt dan overstromingsrisico. Er geldt ook een tijdelijk onttrekkingsverbod op bepaalde waterlopen.",
     uniek:

@@ -6,6 +6,7 @@ import { menuServices } from "@/lib/services";
 import { hoofdSteden } from "@/lib/cities";
 import { Jsonld } from "@/components/ui";
 import { Logo, LogoMark } from "@/components/Logo";
+import { OfferteProvider, OfferteKnop } from "@/components/Offerte";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -67,6 +68,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="nl-BE">
       <body className="flex min-h-screen flex-col font-sans">
+        <OfferteProvider>
         <Jsonld data={[organisatieSchema, websiteSchema]} />
 
         <header className="sticky top-0 z-40 border-b border-water-100 bg-white/95 backdrop-blur">
@@ -106,16 +108,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </div>
               <p className="mt-2 text-sm leading-relaxed text-white/70">
                 Ontstopping, camera-inspectie en rioolherstel in heel de provincie Limburg. Wij werken vanuit de regio en
-                hebben geen vaste baliewerking — u bereikt ons het snelst per telefoon.
+                hebben geen vaste baliewerking: u bereikt ons het snelst per telefoon.
               </p>
               <p className="mt-3 text-sm">
                 <a href={site.telefoonHref} className="font-semibold text-flame-400 hover:underline">
                   <span aria-hidden>&#9742;</span> {site.telefoonLabel}
                 </a>
                 <br />
-                <Link href="/offerte" className="text-white/70 hover:underline">
+                <OfferteKnop variant="kaal" className="text-white/70 underline-offset-2 hover:underline">
                   of vraag een prijsindicatie via het formulier
-                </Link>
+                </OfferteKnop>
               </p>
             </div>
             <div>
@@ -181,7 +183,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="border-t border-white/10">
             <div className="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-3 px-5 py-5 text-xs text-white/50 sm:px-6">
               <p>
-                &copy; {new Date().getFullYear()} {site.naam} — actief in heel de provincie Limburg.
+                &copy; {new Date().getFullYear()} {site.naam}: actief in heel de provincie Limburg.
               </p>
               <nav className="flex flex-wrap gap-4">
                 <Link href="/over-ons" className="hover:text-white hover:underline">
@@ -209,13 +211,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           >
             Bellen
           </a>
-          <Link
-            href="/offerte"
-            className="rounded-lg border-2 border-water-500 px-4 py-3 text-center text-sm font-semibold text-water-600"
-          >
+          <OfferteKnop className="w-full rounded-lg border-2 border-water-500 px-4 py-3 text-center text-sm font-semibold text-water-600">
             Prijsindicatie
-          </Link>
+          </OfferteKnop>
         </div>
+        </OfferteProvider>
       </body>
     </html>
   );

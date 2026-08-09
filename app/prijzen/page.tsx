@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Breadcrumbs, CallButton, FaqList, H2, Jsonld, PriceTable, Section } from "@/components/ui";
 import { LeadForm } from "@/components/LeadForm";
+import { OfferteKnop } from "@/components/Offerte";
 
 export const metadata: Metadata = {
   title: "Prijzen ontstopping en rioolwerken in Limburg (2026) | Limburg Ontstoppingsdienst",
@@ -52,7 +53,7 @@ export default function PrijzenPagina() {
         />
         <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr]">
           <div className="prose-nl max-w-none">
-            <h1 className="mb-4 text-3xl font-extrabold tracking-tight text-ink-900 sm:text-4xl">
+            <h1 className="mb-4 text-[1.6rem] font-bold leading-[1.18] tracking-tight text-ink-900 sm:text-[1.95rem]">
               Prijzen voor ontstopping en rioolwerken in Limburg
             </h1>
             <p className="text-lg leading-relaxed text-ink-800">
@@ -77,7 +78,7 @@ export default function PrijzenPagina() {
             <H2>Toeslagen buiten de kantooruren</H2>
             <p>
               Kunt u wachten tot de volgende ochtend, dan bespaart u vaak honderd euro of meer. Loopt er water uw woning
-              binnen of is het uw enige toilet, dan is wachten geen optie — maar dan weet u tenminste wat u betaalt.
+              binnen of is het uw enige toilet, dan is wachten geen optie, maar dan weet u tenminste wat u betaalt.
             </p>
             <PriceTable
               kop={["Moment", "Toeslag", "Totaalprijs"]}
@@ -145,7 +146,7 @@ export default function PrijzenPagina() {
 
             <H2>Vier manieren om de rekening te drukken</H2>
             <ul>
-              <li>Bel overdag als het kan — het verschil met een zondagnacht is snel 150 euro.</li>
+              <li>Bel overdag als het kan: het verschil met een zondagnacht is snel 150 euro.</li>
               <li>Weet waar uw huisaansluitputje ligt; een technicus die er meteen bij kan werkt sneller.</li>
               <li>Laat bij een tweede verstopping binnen het jaar meteen een camera meegaan.</li>
               <li>Vraag vooraf naar starttarief inclusief verplaatsing én naar het btw-tarief.</li>
@@ -167,7 +168,10 @@ export default function PrijzenPagina() {
               <p className="mb-4 text-sm leading-relaxed text-ink-800">
                 Beschrijf uw situatie aan de telefoon en u krijgt meteen een realistische indicatie.
               </p>
-              <CallButton klein />
+              <div className="flex flex-wrap gap-2">
+                <CallButton klein />
+                <OfferteKnop klein />
+              </div>
             </div>
           </aside>
         </div>

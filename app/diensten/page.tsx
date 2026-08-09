@@ -19,7 +19,7 @@ export default function DienstenOverzicht() {
           { naam: "Diensten", href: "/diensten" },
         ]}
       />
-      <h1 className="mb-4 text-3xl font-extrabold tracking-tight text-ink-900 sm:text-4xl">
+      <h1 className="mb-4 text-[1.6rem] font-bold leading-[1.18] tracking-tight text-ink-900 sm:text-[1.95rem]">
         Onze diensten in Limburg
       </h1>
       <p className="mb-10 max-w-3xl leading-relaxed text-ink-800">
