@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { menuServices } from "@/lib/services";
 import { FORMSPREE_ACTION, site } from "@/lib/site";
 
@@ -88,7 +89,14 @@ export function LeadForm({ gemeente, compact = false }: { gemeente?: string; com
 
       <label className="mt-4 flex items-start gap-2 text-sm text-ink-700">
         <input required type="checkbox" name="gdpr" className="mt-1" />
-        <span>Ik ga ermee akkoord dat mijn gegevens gebruikt worden om mij te contacteren over deze aanvraag.</span>
+        <span>
+          Ik ga ermee akkoord dat mijn gegevens gebruikt worden om mij te contacteren over deze aanvraag, zoals
+          beschreven in de{" "}
+          <Link href="/privacy" className="text-water-600 underline underline-offset-2">
+            privacyverklaring
+          </Link>
+          .
+        </span>
       </label>
 
       <button

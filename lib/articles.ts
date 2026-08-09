@@ -502,31 +502,31 @@ export const articles: Article[] = [
     ],
     secties: [
       {
-        h2: "1. Een starttarief dat verplaatsing bevat",
+        h2: "Een starttarief dat verplaatsing bevat",
         tekst: [
           "Vraag expliciet wat het eerste uur kost inclusief verplaatsing, en tot hoeveel kilometer dat geldt. In de Belgische markt ligt dat rond 140 euro exclusief btw voor het eerste werkuur met verplaatsing tot ongeveer 30 kilometer. Wordt daar apart kilometergeld bovenop gerekend, dan wilt u dat vooraf weten.",
         ],
       },
       {
-        h2: "2. Duidelijkheid over het btw-tarief",
+        h2: "Duidelijkheid over het btw-tarief",
         tekst: [
           "Is uw woning ouder dan tien jaar en hoofdzakelijk privé in gebruik, dan hoort een ontstopping aan 6% btw gefactureerd te worden. Sinds 1 juli 2022 volstaat een gespecificeerde vermelding op de factuur; er is geen apart attest meer nodig. Krijgt u toch 21% aangerekend zonder uitleg, vraag dan waarom.",
         ],
       },
       {
-        h2: "3. De toeslag voor het tijdstip, vooraf genoemd",
+        h2: "De toeslag voor het tijdstip, vooraf genoemd",
         tekst: [
           "Toeslagen van 50% 's avonds tot 150% 's nachts zijn normaal in de sector. Wat niet normaal is, is dat u ze pas op de factuur ontdekt. Laat het bedrag of het percentage aan de telefoon bevestigen.",
         ],
       },
       {
-        h2: "4. Camera-controle na de ontstopping",
+        h2: "Camera-controle na de ontstopping",
         tekst: [
           "Een ontstopping zonder nacontrole is een gok. Vraag of er na het vrijmaken met camera gekeken wordt of de buis intact is. Bij een tweede verstopping binnen het jaar zou dat standaard moeten zijn — anders betaalt u elk jaar opnieuw voor hetzelfde symptoom.",
         ],
       },
       {
-        h2: "5. De juiste techniek voor uw situatie",
+        h2: "De juiste techniek voor uw situatie",
         lijst: [
           "Plotse verstopping met een duidelijke aanleiding: een spiraal volstaat.",
           "Geleidelijk trager wordende afvoer: hogedruk, want dan is de wand vernauwd.",
@@ -535,19 +535,19 @@ export const articles: Article[] = [
         ],
       },
       {
-        h2: "6. Bewijs van afvoer bij slib",
+        h2: "Bewijs van afvoer bij slib",
         tekst: [
           "Laat u een septische put of een regenwaterput ledigen, vraag dan een bewijs dat het slib naar een erkende verwerker gaat. Dat is niet alleen een wettelijke kwestie; het is ook uw enige bewijs dat het afval correct verwerkt is.",
         ],
       },
       {
-        h2: "7. Kennis van uw gemeente",
+        h2: "Kennis van uw gemeente",
         tekst: [
           "Een dienst die weet dat in Lommel, Heusden-Zolder, Bilzen-Hoeselt en Wellen de gemeente zelf het riool beheert, en dat As met Riopact werkt, bespaart u een verkeerd telefoontje. Datzelfde geldt voor de vaststelling wie waarvoor betaalt: alles tot en met het huisaansluitputje is voor u, ook als het op de stoep ligt.",
         ],
       },
       {
-        h2: "8. Een schriftelijke prijsindicatie voor vervolgwerk",
+        h2: "Een schriftelijke prijsindicatie voor vervolgwerk",
         tekst: [
           "Blijkt de leiding beschadigd, dan volgt er een tweede beslissing: relining of vervangen. Vraag daarvoor een schriftelijke indicatie per meter. Relining ligt doorgaans 30 tot 40% lager dan volledige vervanging en vraagt ongeveer één werkdag in plaats van drie tot vijf.",
         ],

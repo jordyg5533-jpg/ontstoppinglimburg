@@ -9,7 +9,11 @@ export const site = {
   telefoon: "+32 456 19 13 60",
   telefoonLabel: "Bel ons",
   telefoonHref: "tel:+32456191360",
-  email: "info@jgscale.be",
+  // Leads komen via Formspree binnen op info@jgscale.be. Dat adres staat bewust
+  // NERGENS op de site: een ontstoppingsdienst die mailt vanaf een
+  // marketingbedrijf-domein breekt het vertrouwen én de NAP-consistentie.
+  // Contact loopt uitsluitend via het formulier of de belknop.
+  emailIntern: "info@jgscale.be",
   regio: "Limburg",
   provincie: "Limburg",
   land: "BE",

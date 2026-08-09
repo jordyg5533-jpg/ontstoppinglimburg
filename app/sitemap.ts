@@ -8,7 +8,7 @@ export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const nu = new Date();
-  const statisch = ["", "/diensten", "/gemeenten", "/kennis", "/prijzen", "/offerte", "/over-ons"];
+  const statisch = ["", "/diensten", "/gemeenten", "/kennis", "/prijzen", "/offerte", "/over-ons", "/privacy"];
 
   return [
     ...statisch.map((p) => ({

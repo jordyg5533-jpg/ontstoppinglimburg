@@ -57,10 +57,29 @@ export default function OverOns() {
           rioolbeheerder, bodem, waterlopen en de problemen die daar het vaakst spelen.
         </p>
 
+        <H2>Wat u van ons mag verwachten</H2>
+        <ul>
+          <li>Een richtprijs en het btw-tarief voordat er iets gebeurt, ook aan de telefoon.</li>
+          <li>Een eerlijk antwoord op de vraag of het dringend is. Kan het tot morgen wachten, dan zeggen we dat — nachttarief is voor echte spoed.</li>
+          <li>Camerabeelden te zien krijgen als er vervolgwerk nodig is, in plaats van een verhaal achteraf.</li>
+          <li>Geen verzonnen reviews, geen sterretjes die we niet kunnen onderbouwen. Zodra er referenties zijn, komen ze hier met naam en gemeente.</li>
+        </ul>
+
+        <H2>Waarom er een kennisbank op deze site staat</H2>
+        <p>
+          Omdat de meeste mensen bellen op het moment dat het water al over de rand komt, en dan geen tijd
+          hebben om iets uit te zoeken. Wie vooraf weet wat een ontstopping kost, welk btw-tarief geldt en waar
+          zijn eigen verantwoordelijkheid ophoudt, wordt niet overvraagd — door ons niet en door iemand anders
+          ook niet. De <Link href="/kennis">gidsen</Link> zijn met bronvermelding geschreven, zodat u het
+          desnoods zelf kunt nakijken.
+        </p>
+
         <H2>Contact</H2>
         <p>
-          Bellen gaat het snelst — gebruik de knop hieronder. E-mail:{" "}
-          <a href={`mailto:${site.email}`}>{site.email}</a>
+          Bellen gaat het snelst; gebruik de knop hieronder of de belknop bovenaan elke pagina. Liever
+          schriftelijk? Vul dan het <Link href="/offerte">aanvraagformulier</Link> in — naam en telefoonnummer
+          volstaan en u krijgt een concrete richtprijs terug. Hoe wij met uw gegevens omgaan staat in de{" "}
+          <Link href="/privacy">privacyverklaring</Link>.
         </p>
         <div className="mt-6">
           <CallButton />

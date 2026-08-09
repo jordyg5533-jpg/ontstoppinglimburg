@@ -5,6 +5,7 @@ import { articles, getArticle } from "@/lib/articles";
 import { site } from "@/lib/site";
 import { Breadcrumbs, CallButton, FaqList, Jsonld, PriceTable, Section } from "@/components/ui";
 import { LeadForm } from "@/components/LeadForm";
+import { RooilijnDiagram } from "@/components/Diagram";
 
 export function generateStaticParams() {
   return articles.map((a) => ({ artikel: a.slug }));
@@ -74,6 +75,13 @@ export default async function ArtikelPagina({ params }: { params: Promise<{ arti
           <article className="prose-nl max-w-none">
             <h1 className="mb-3 text-3xl font-extrabold leading-tight tracking-tight text-ink-900 sm:text-4xl">{a.h1}</h1>
             <p className="mb-6 text-xs uppercase tracking-wider text-ink-700">Bijgewerkt {a.bijgewerkt}</p>
+            <p className="text-lg leading-relaxed text-ink-800">
+              Deze gids is geschreven door{" "}
+              <Link href="/" className="font-semibold text-water-600 underline underline-offset-2">
+                Limburg Ontstoppingsdienst 24/7
+              </Link>
+              , die in heel de provincie Limburg riolering en afvoeren ontstopt.
+            </p>
             {a.intro.map((p, i) => (
               <p key={i} className="text-lg leading-relaxed text-ink-800">
                 {p}
@@ -93,6 +101,8 @@ export default async function ArtikelPagina({ params }: { params: Promise<{ arti
                 ))}
               </ol>
             </nav>
+
+            {a.slug === "wie-betaalt-verstopte-riolering" ? <RooilijnDiagram /> : null}
 
             {a.secties.map((s, i) => (
               <section key={s.h2}>

@@ -85,6 +85,13 @@ export default async function DienstPagina({ params }: { params: Promise<{ diens
             <h1 className="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-ink-900 sm:text-4xl">
               {s.naam} in Limburg
             </h1>
+            <p className="mb-4 text-lg leading-relaxed text-ink-800">
+              <Link href="/" className="font-semibold text-water-600 underline underline-offset-2">
+                Limburg Ontstoppingsdienst 24/7
+              </Link>{" "}
+              doet {s.naam.toLowerCase()} in alle Limburgse gemeenten, met een richtprijs vooraf en
+              camera-controle achteraf.
+            </p>
             <p className="mb-6 text-lg leading-relaxed text-ink-800">{s.intro}</p>
 
             <H2>Wanneer dit aan de orde is</H2>

@@ -7,6 +7,7 @@ import { menuServices } from "@/lib/services";
 import { site } from "@/lib/site";
 import { Breadcrumbs, CallButton, FaqList, H2, Jsonld, PriceTable, Section } from "@/components/ui";
 import { LeadForm } from "@/components/LeadForm";
+import { RooilijnDiagram } from "@/components/Diagram";
 
 export function generateStaticParams() {
   return cities.map((c) => ({ gemeente: c.slug }));
@@ -110,6 +111,7 @@ function BlokNetwerk({ c }: { c: City }) {
           <p className="mt-3 text-xs text-ink-700">Bron: Aquafin StatusTool per gemeente.</p>
         </div>
       ) : null}
+      <RooilijnDiagram beheerder={c.rioolbeheerder} />
       <Link
         href="/kennis/rioolbeheerder-per-gemeente-limburg"
         className="font-semibold text-water-600 underline underline-offset-2"
@@ -356,6 +358,14 @@ export default async function GemeentePagina({ params }: { params: Promise<{ gem
             { naam: c.naam, href: `/${c.slug}` },
           ]}
         />
+        <p className="mb-10 max-w-3xl text-lg leading-relaxed text-ink-800">
+          <Link href="/" className="font-semibold text-water-600 underline underline-offset-2">
+            Limburg Ontstoppingsdienst 24/7
+          </Link>{" "}
+          komt in {c.naam} en de deelgemeenten, dag en nacht. Hieronder leest u wat hier concreet speelt: wie
+          het rioolnet beheert, wat de bodem met uw afvoer doet en welke problemen in {c.naam} het vaakst
+          terugkomen.
+        </p>
         <div className="prose-nl max-w-none space-y-12">
           {c.volgorde.map((key) => {
             const Blok = blokken[key];

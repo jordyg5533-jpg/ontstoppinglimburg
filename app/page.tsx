@@ -6,6 +6,7 @@ import { menuServices } from "@/lib/services";
 import { articles } from "@/lib/articles";
 import { CallButton, FaqList, H2, Jsonld, PriceTable, Section } from "@/components/ui";
 import { LeadForm } from "@/components/LeadForm";
+import { RooilijnDiagram } from "@/components/Diagram";
 
 export const metadata: Metadata = {
   title: "Limburg Ontstoppingsdienst 24/7 | Riool & Afvoer Ontstoppen in Limburg",
@@ -21,7 +22,7 @@ const faq = [
   },
   {
     v: "Hoe snel kunnen jullie ter plaatse zijn?",
-    a: "Bij een echt spoedgeval — water dat uw woning binnenkomt of uw enige toilet dat onbruikbaar is — is één tot twee uur in Limburg realistisch, afhankelijk van het uur en de drukte. Is het niet dringend, dan bespaart u vaak honderd euro of meer door tot de volgende ochtend te wachten. Wij zeggen u eerlijk in welke categorie uw situatie valt.",
+    a: "Bij een echt spoedgeval — water dat uw woning binnenkomt of uw enige toilet dat onbruikbaar is — streven we naar dezelfde dag. Een harde belofte doen we aan de telefoon en niet op een webpagina, want dat hangt af van het uur, de drukte en waar u woont. U hoort dus meteen bij het eerste contact wanneer we er kunnen zijn. Is het niet dringend, dan bespaart u vaak honderd euro of meer door tot de volgende ochtend te wachten, en dat zeggen we er eerlijk bij.",
   },
   {
     v: "Wie betaalt de verstopping: ik of de rioolbeheerder?",
@@ -85,7 +86,7 @@ export default function Home() {
               Alle 38 Limburgse gemeenten · dag en nacht
             </p>
             <h1 className="text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl lg:text-[2.75rem]">
-              Riool ontstoppen in Limburg: snel ter plaatse, met camera-controle en een richtprijs vooraf
+              Ontstoppingsdienst in Limburg: snel ter plaatse, met camera-controle en een richtprijs vooraf
             </h1>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-white/80">
               {site.naam} is een ontstoppingsdienst voor heel de provincie Limburg. Wij maken verstopte riolering,
@@ -168,6 +169,23 @@ export default function Home() {
           </Link>
         </Section>
       </div>
+
+      {/* WIE BETAALT WAT */}
+      <Section>
+        <H2>Tot waar is het uw kosten?</H2>
+        <p className="mb-2 max-w-3xl leading-relaxed text-ink-800">
+          Hier gaat in de praktijk de meeste discussie over. De grens ligt niet bij de stoeprand maar bij het
+          huisaansluitputje — en dat putje is eigendom van de netbeheerder terwijl het onderhoud tóch bij u
+          ligt. Wij controleren dat putje standaard voor we beginnen, zodat u weet aan welke kant het zit.
+        </p>
+        <RooilijnDiagram />
+        <Link
+          href="/kennis/wie-betaalt-verstopte-riolering"
+          className="font-semibold text-water-600 underline underline-offset-2"
+        >
+          Volledige uitleg met de letterlijke reglementstekst &rarr;
+        </Link>
+      </Section>
 
       {/* HOE WE WERKEN */}
       <Section>

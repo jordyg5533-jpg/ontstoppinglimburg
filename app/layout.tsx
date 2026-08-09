@@ -30,7 +30,6 @@ const organisatieSchema = {
   "@id": `${site.url}/#organisatie`,
   name: site.naam,
   url: site.url,
-  email: site.email,
   telephone: site.telefoon,
   areaServed: {
     "@type": "AdministrativeArea",
@@ -109,9 +108,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <span aria-hidden>&#9742;</span> {site.telefoonLabel}
                 </a>
                 <br />
-                <a href={`mailto:${site.email}`} className="text-white/70 hover:underline">
-                  {site.email}
-                </a>
+                <Link href="/offerte" className="text-white/70 hover:underline">
+                  of vraag een prijsindicatie via het formulier
+                </Link>
               </p>
             </div>
             <div>
@@ -179,9 +178,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <p>
                 &copy; {new Date().getFullYear()} {site.naam} — actief in heel de provincie Limburg.
               </p>
-              <p>
-                Alle vermelde bedragen zijn richtprijzen op basis van gepubliceerde marktprijzen, geen vaste tarieven.
-              </p>
+              <nav className="flex flex-wrap gap-4">
+                <Link href="/over-ons" className="hover:text-white hover:underline">
+                  Over deze dienst
+                </Link>
+                <Link href="/privacy" className="hover:text-white hover:underline">
+                  Privacyverklaring
+                </Link>
+                <Link href="/prijzen" className="hover:text-white hover:underline">
+                  Richtprijzen
+                </Link>
+              </nav>
+            </div>
+            <div className="mx-auto w-full max-w-6xl px-5 pb-5 text-xs text-white/40 sm:px-6">
+              Alle vermelde bedragen zijn richtprijzen op basis van gepubliceerde marktprijzen, geen vaste tarieven.
             </div>
           </div>
         </footer>
